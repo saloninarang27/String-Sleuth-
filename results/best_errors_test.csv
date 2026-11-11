@@ -1,0 +1,5 @@
+ltable_id,rtable_id,label,x,y,score
+73,291,1,tillerman,'till erman the ',0.4524
+127,190,0,` cha cha cha ',` cha cha cha \ 's ',0.9786
+72,107,0,` steak house ',` sparks steak house ',0.7913
+170,64,0,` tommy tang \ 's ',` tommy \ 's ',0.88

@@ -1,0 +1,114 @@
+Pairs: 946  matches: 110  combinations evaluated: 3978
+
+=== Single measures (ranked by tune F1) per preprocessing ===
+
+-- raw --
+preprocessing        combination fusion  threshold  F1_tune  P_test  R_test  F1_test  AUC_test  F1_cv5
+          raw     Overlap (word)   mean     0.8333   0.9560  0.8333  0.9091   0.8696    0.9525  0.9292
+          raw      TF/IDF cosine   mean     0.5592   0.9341  0.8333  0.9091   0.8696    0.9594  0.9018
+          raw     Smith-Waterman   mean     0.8824   0.9257  0.9167  1.0000   0.9565    1.0000  0.9273
+          raw            Soundex   mean     0.4286   0.9149  0.8000  0.9091   0.8511    0.9687  0.8839
+          raw     Jaccard (word)   mean     0.7143   0.9112  0.8947  0.7727   0.8293    0.9167  0.8952
+          raw   Jaccard (3-gram)   mean     0.6667   0.8970  0.9000  0.8182   0.8571    0.9671  0.8599
+          raw      Dice (3-gram)   mean     0.8000   0.8970  0.9000  0.8182   0.8571    0.9671  0.8599
+          raw Ratcliff-Obershelp   mean     0.9091   0.8662  1.0000  0.8182   0.9000    0.9615  0.8673
+          raw        Levenshtein   mean     0.8889   0.8590  1.0000  0.7727   0.8718    0.9545  0.8497
+          raw   Needleman-Wunsch   mean     0.7778   0.8590  1.0000  0.7727   0.8718    0.9246  0.8497
+          raw         Affine gap   mean     0.8426   0.8590  1.0000  0.7727   0.8718    0.9530  0.8497
+          raw               Jaro   mean     0.9288   0.8553  1.0000  0.8182   0.9000    0.9927  0.8528
+          raw       Jaro-Winkler   mean     0.9573   0.8553  1.0000  0.8182   0.9000    0.9872  0.8528
+
+-- norm --
+preprocessing        combination fusion  threshold  F1_tune  P_test  R_test  F1_test  AUC_test  F1_cv5
+         norm     Overlap (word)   mean     1.0000   0.9551  0.8696  0.9091   0.8889    0.9653  0.9417
+         norm      TF/IDF cosine   mean     0.5307   0.9362  0.8000  0.9091   0.8511    0.9711  0.9138
+         norm     Smith-Waterman   mean     0.9524   0.9249  0.9130  0.9545   0.9333    0.9937  0.9266
+         norm            Soundex   mean     0.6667   0.9036  0.8571  0.8182   0.8372    0.9687  0.8704
+         norm     Jaccard (word)   mean     0.5000   0.8995  0.8000  0.9091   0.8511    0.9684  0.8636
+         norm   Jaccard (3-gram)   mean     0.5405   0.8957  0.9000  0.8182   0.8571    0.9943  0.8756
+         norm      Dice (3-gram)   mean     0.7018   0.8957  0.9000  0.8182   0.8571    0.9943  0.8756
+         norm       Jaro-Winkler   mean     0.8939   0.8764  0.9091  0.9091   0.9091    0.9978  0.8378
+         norm               Jaro   mean     0.8832   0.8712  0.9474  0.8182   0.8780    0.9967  0.8612
+         norm Ratcliff-Obershelp   mean     0.8750   0.8662  0.9474  0.8182   0.8780    0.9767  0.8600
+         norm        Levenshtein   mean     0.8235   0.8662  0.9474  0.8182   0.8780    0.9725  0.8571
+         norm   Needleman-Wunsch   mean     0.6471   0.8662  0.9474  0.8182   0.8780    0.9283  0.8571
+         norm         Affine gap   mean     0.7500   0.8662  0.9474  0.8182   0.8780    0.9699  0.8528
+
+-- norm+rules --
+preprocessing        combination fusion  threshold  F1_tune  P_test  R_test  F1_test  AUC_test  F1_cv5
+   norm+rules     Overlap (word)   mean     1.0000   0.9560  0.8696  0.9091   0.8889    0.9673  0.9427
+   norm+rules     Smith-Waterman   mean     1.0000   0.9444  0.8750  0.9545   0.9130    0.9906  0.9381
+   norm+rules      TF/IDF cosine   mean     0.5554   0.9348  0.8333  0.9091   0.8696    0.9714  0.9027
+   norm+rules            Soundex   mean     0.6667   0.9222  0.9048  0.8636   0.8837    0.9705  0.9143
+   norm+rules     Jaccard (word)   mean     0.6667   0.9222  0.9000  0.8182   0.8571    0.9705  0.9091
+   norm+rules   Jaccard (3-gram)   mean     0.4848   0.9059  0.9091  0.9091   0.9091    0.9937  0.9005
+   norm+rules      Dice (3-gram)   mean     0.6531   0.9059  0.9091  0.9091   0.9091    0.9937  0.9005
+   norm+rules       Jaro-Winkler   mean     0.8500   0.9053  0.9130  0.9545   0.9333    0.9959  0.8821
+   norm+rules               Jaro   mean     0.8400   0.8876  0.9524  0.9091   0.9302    0.9954  0.8571
+   norm+rules        Levenshtein   mean     1.0000   0.8875  0.9474  0.8182   0.8780    0.9701  0.8911
+   norm+rules   Needleman-Wunsch   mean     1.0000   0.8875  0.9474  0.8182   0.8780    0.9507  0.8911
+   norm+rules         Affine gap   mean     1.0000   0.8875  0.9474  0.8182   0.8780    0.9699  0.8911
+   norm+rules Ratcliff-Obershelp   mean     1.0000   0.8875  0.9474  0.8182   0.8780    0.9785  0.8911
+
+=== Top 20 combinations overall ===
+preprocessing                                                     combination  fusion  threshold  F1_tune  P_test  R_test  F1_test  AUC_test  F1_cv5
+         norm            Jaro + Jaro-Winkler + Overlap (word) + TF/IDF cosine    mean     0.7264   0.9670  0.8750  0.9545   0.9130    0.9956  0.9515
+         norm                                   Jaro-Winkler + Overlap (word)    mean     0.7730   0.9670  0.8750  0.9545   0.9130    0.9935  0.9511
+         norm                   Jaro-Winkler + Overlap (word) + TF/IDF cosine    mean     0.7288   0.9667  0.8750  0.9545   0.9130    0.9932  0.9511
+         norm                  Jaro-Winkler + Overlap (word) + Jaccard (word)    mean     0.6926   0.9667  0.8333  0.9091   0.8696    0.9916  0.9381
+         norm                         Jaro-Winkler + Overlap (word) + Soundex    mean     0.6926   0.9667  0.8333  0.9091   0.8696    0.9921  0.9381
+         norm          Smith-Waterman + Jaro + Overlap (word) + TF/IDF cosine    mean     0.7658   0.9663  0.8750  0.9545   0.9130    0.9954  0.9507
+         norm  Smith-Waterman + Jaro-Winkler + Overlap (word) + TF/IDF cosine    mean     0.7740   0.9663  0.8750  0.9545   0.9130    0.9954  0.9507
+         norm Smith-Waterman + Jaro-Winkler + Overlap (word) + Jaccard (word)    mean     0.7694   0.9663  0.8696  0.9091   0.8889    0.9943  0.9507
+         norm        Smith-Waterman + Jaro-Winkler + Overlap (word) + Soundex    mean     0.7694   0.9663  0.8696  0.9091   0.8889    0.9951  0.9507
+         norm         Smith-Waterman + Jaro + Overlap (word) + Jaccard (word)    mean     0.7431   0.9663  0.8696  0.9091   0.8889    0.9943  0.9464
+         norm                Smith-Waterman + Jaro + Overlap (word) + Soundex    mean     0.7431   0.9663  0.8696  0.9091   0.8889    0.9951  0.9464
+         norm                                           Jaro + Overlap (word)    mean     0.7788   0.9663  0.8750  0.9545   0.9130    0.9929  0.9422
+   norm+rules                                 Smith-Waterman + Jaccard (word)     max     1.0000   0.9617  0.8750  0.9545   0.9130    0.9906  0.9520
+   norm+rules                                        Smith-Waterman + Soundex     max     1.0000   0.9617  0.8750  0.9545   0.9130    0.9906  0.9520
+   norm+rules  Smith-Waterman + Jaro-Winkler + Overlap (word) + TF/IDF cosine    mean     0.7322   0.9617  0.8750  0.9545   0.9130    0.9940  0.9474
+   norm+rules                                  Smith-Waterman + TF/IDF cosine     max     1.0000   0.9617  0.8750  0.9545   0.9130    0.9906  0.9432
+          raw                                 Smith-Waterman + Overlap (word)     max     0.8824   0.9613  0.8800  1.0000   0.9362    0.9902  0.9515
+   norm+rules Smith-Waterman + Jaro-Winkler + Overlap (word) + Jaccard (word)    mean     0.7740   0.9613  0.8696  0.9091   0.8889    0.9937  0.9469
+   norm+rules        Smith-Waterman + Jaro-Winkler + Overlap (word) + Soundex    mean     0.7740   0.9613  0.8696  0.9091   0.8889    0.9943  0.9469
+         norm                                   Jaro-Winkler + Overlap (word) product     0.5863   0.9613  0.8750  0.9545   0.9130    0.9720  0.9464
+
+=== Best per k ===
+preprocessing                                          combination fusion  threshold  F1_tune  P_test  R_test  F1_test  AUC_test  F1_cv5  k
+         norm Jaro + Jaro-Winkler + Overlap (word) + TF/IDF cosine   mean     0.7264   0.9670  0.8750  0.9545   0.9130    0.9956  0.9515  4
+         norm                        Jaro-Winkler + Overlap (word)   mean     0.7730   0.9670  0.8750  0.9545   0.9130    0.9935  0.9511  2
+         norm        Jaro-Winkler + Overlap (word) + TF/IDF cosine   mean     0.7288   0.9667  0.8750  0.9545   0.9130    0.9932  0.9511  3
+   norm+rules                                       Overlap (word)   mean     1.0000   0.9560  0.8696  0.9091   0.8889    0.9673  0.9427  1
+
+=== Best per fusion (k=2) ===
+preprocessing                     combination  fusion  threshold  F1_tune  P_test  R_test  F1_test  AUC_test  F1_cv5
+         norm   Jaro-Winkler + Overlap (word)    mean     0.7730   0.9670  0.8750  0.9545   0.9130    0.9935  0.9511
+   norm+rules Smith-Waterman + Jaccard (word)     max     1.0000   0.9617  0.8750  0.9545   0.9130    0.9906  0.9520
+         norm   Jaro-Winkler + Overlap (word) product     0.5863   0.9613  0.8750  0.9545   0.9130    0.9720  0.9464
+   norm+rules   Jaro-Winkler + Overlap (word)     min     0.7959   0.9609  0.9091  0.9091   0.9091    0.9720  0.9459
+
+=== Best per preprocessing ===
+preprocessing                                          combination fusion  threshold  F1_tune  P_test  R_test  F1_test  AUC_test  F1_cv5
+         norm Jaro + Jaro-Winkler + Overlap (word) + TF/IDF cosine   mean     0.7264   0.9670   0.875  0.9545   0.9130    0.9956  0.9515
+   norm+rules                      Smith-Waterman + Jaccard (word)    max     1.0000   0.9617   0.875  0.9545   0.9130    0.9906  0.9520
+          raw                      Smith-Waterman + Overlap (word)    max     0.8824   0.9613   0.880  1.0000   0.9362    0.9902  0.9515
+
+=== Top 10 by 5-fold CV F1 ===
+preprocessing                                                     combination fusion  threshold  F1_tune  P_test  R_test  F1_test  AUC_test  F1_cv5
+   norm+rules                                 Smith-Waterman + Jaccard (word)    max     1.0000   0.9617  0.8750  0.9545   0.9130    0.9906  0.9520
+   norm+rules                                        Smith-Waterman + Soundex    max     1.0000   0.9617  0.8750  0.9545   0.9130    0.9906  0.9520
+         norm            Jaro + Jaro-Winkler + Overlap (word) + TF/IDF cosine   mean     0.7264   0.9670  0.8750  0.9545   0.9130    0.9956  0.9515
+          raw                                 Smith-Waterman + Overlap (word)    max     0.8824   0.9613  0.8800  1.0000   0.9362    0.9902  0.9515
+         norm                                   Jaro-Winkler + Overlap (word)   mean     0.7730   0.9670  0.8750  0.9545   0.9130    0.9935  0.9511
+         norm                   Jaro-Winkler + Overlap (word) + TF/IDF cosine   mean     0.7288   0.9667  0.8750  0.9545   0.9130    0.9932  0.9511
+         norm                                 Smith-Waterman + Overlap (word)    max     1.0000   0.9609  0.8750  0.9545   0.9130    0.9906  0.9511
+         norm          Smith-Waterman + Jaro + Overlap (word) + TF/IDF cosine   mean     0.7658   0.9663  0.8750  0.9545   0.9130    0.9954  0.9507
+         norm  Smith-Waterman + Jaro-Winkler + Overlap (word) + TF/IDF cosine   mean     0.7740   0.9663  0.8750  0.9545   0.9130    0.9954  0.9507
+         norm Smith-Waterman + Jaro-Winkler + Overlap (word) + Jaccard (word)   mean     0.7694   0.9663  0.8696  0.9091   0.8889    0.9943  0.9507
+
+=== Test errors of best combination ===
+ ltable_id  rtable_id  label                   x                      y  score
+        73        291      1           tillerman      'till erman the ' 0.4524
+       127        190      0     ` cha cha cha '   ` cha cha cha \ 's ' 0.9786
+        72        107      0     ` steak house ' ` sparks steak house ' 0.7913
+       170         64      0 ` tommy tang \ 's '         ` tommy \ 's ' 0.8800

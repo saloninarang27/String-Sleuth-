@@ -1,0 +1,947 @@
+rank,split,ltable_id,rtable_id,name_A,name_B,jaro_winkler,overlap_word,score,label,predicted,correct,identical
+1,train,55,273,rainbow room,rainbow room,1.0,1.0,1.0,1,1,True,True
+2,train,97,315,cafe claude,cafe claude,1.0,1.0,1.0,1,1,True,True
+3,train,59,277,seryna,seryna,1.0,1.0,1.0,1,1,True,True
+4,train,106,324,masa s,masa s,1.0,1.0,1.0,1,1,True,True
+5,train,47,265,mesa grill,mesa grill,1.0,1.0,1.0,1,1,True,True
+6,train,87,305,nikolai s roof,nikolai s roof,1.0,1.0,1.0,1,1,True,True
+7,train,41,259,le bernardin,le bernardin,1.0,1.0,1.0,1,1,True,True
+8,train,50,268,oceana,oceana,1.0,1.0,1.0,1,1,True,True
+9,train,21,239,valentino,valentino,1.0,1.0,1.0,1,1,True,True
+10,train,56,274,river cafe,river cafe,1.0,1.0,1.0,1,1,True,True
+11,train,85,303,la grotta,la grotta,1.0,1.0,1.0,1,1,True,True
+12,train,65,283,union square cafe,union square cafe,1.0,1.0,1.0,1,1,True,True
+13,train,62,280,smith & wollensky,smith & wollensky,1.0,1.0,1.0,1,1,True,True
+14,train,54,272,pisces,pisces,1.0,1.0,1.0,1,1,True,True
+15,train,8,226,granita,granita,1.0,1.0,1.0,1,1,True,True
+16,train,11,229,l orangerie,l orangerie,1.0,1.0,1.0,1,1,True,True
+17,train,81,299,georgia grille,georgia grille,1.0,1.0,1.0,1,1,True,True
+18,train,24,242,aquavit,aquavit,1.0,1.0,1.0,1,1,True,True
+19,train,111,329,rose pistola,rose pistola,1.0,1.0,1.0,1,1,True,True
+20,train,40,258,la cote basque,la cote basque,1.0,1.0,1.0,1,1,True,True
+21,train,77,295,brasserie le coze,brasserie le coze,1.0,1.0,1.0,1,1,True,True
+22,train,16,234,patina,patina,1.0,1.0,1.0,1,1,True,True
+23,train,26,244,cafe lalo,cafe lalo,1.0,1.0,1.0,1,1,True,True
+24,train,23,241,21 club,21 club,1.0,1.0,1.0,1,1,True,True
+25,train,14,232,matsuhisa,matsuhisa,1.0,1.0,1.0,1,1,True,True
+26,train,3,221,cafe bizou,cafe bizou,1.0,1.0,1.0,1,1,True,True
+27,train,70,288,palace court,palace court,1.0,1.0,1.0,1,1,True,True
+28,train,32,250,dawat,dawat,1.0,1.0,1.0,1,1,True,True
+29,train,46,264,march,march,1.0,1.0,1.0,1,1,True,True
+30,train,33,251,felidia,felidia,1.0,1.0,1.0,1,1,True,True
+31,train,49,267,montrachet,montrachet,1.0,1.0,1.0,1,1,True,True
+32,train,104,322,la folie,la folie,1.0,1.0,1.0,1,1,True,True
+33,train,78,296,buckhead diner,buckhead diner,1.0,1.0,1.0,1,1,True,True
+34,train,53,271,picholine,picholine,1.0,1.0,1.0,1,1,True,True
+35,train,98,316,campton place,campton place,1.0,1.0,1.0,1,1,True,True
+36,train,92,310,toulouse,toulouse,1.0,1.0,1.0,1,1,True,True
+37,train,86,304,mary mac s tea room,mary mac s tea room,1.0,1.0,1.0,1,1,True,True
+38,train,19,237,rex il ristorante,rex il ristorante,1.0,1.0,1.0,1,1,True,True
+39,train,64,282,uncle nick s,uncle nick s,1.0,1.0,1.0,1,1,True,True
+40,train,35,253,gotham bar & grill,gotham bar & grill,1.0,1.0,1.0,1,1,True,True
+41,train,52,270,petrossian,petrossian,1.0,1.0,1.0,1,1,True,True
+42,train,44,262,lutece,lutece,1.0,1.0,1.0,1,1,True,True
+43,train,102,320,hawthorne lane,hawthorne lane,1.0,1.0,1.0,1,1,True,True
+44,train,6,224,citrus,citrus,1.0,1.0,1.0,1,1,True,True
+45,train,13,231,locanda veneta,locanda veneta,1.0,1.0,1.0,1,1,True,True
+46,train,95,313,aqua,aqua,1.0,1.0,1.0,1,1,True,True
+47,train,4,222,campanile,campanile,1.0,1.0,1.0,1,1,True,True
+48,train,0,218,arnie morton s of chicago,arnie morton s of chicago,1.0,1.0,1.0,1,1,True,True
+49,train,67,285,chin s,chin s,1.0,1.0,1.0,1,1,True,True
+50,train,29,247,carnegie deli,carnegie deli,1.0,1.0,1.0,1,1,True,True
+51,valid,109,327,postrio,postrio,1.0,1.0,1.0,1,1,True,True
+52,valid,99,317,chez michel,chez michel,1.0,1.0,1.0,1,1,True,True
+53,valid,80,298,delectables,delectables,1.0,1.0,1.0,1,1,True,True
+54,valid,5,223,chinois on main,chinois on main,1.0,1.0,1.0,1,1,True,True
+55,valid,31,249,daniel,daniel,1.0,1.0,1.0,1,1,True,True
+56,valid,63,281,tavern on the green,tavern on the green,1.0,1.0,1.0,1,1,True,True
+57,valid,103,321,khan toke thai house,khan toke thai house,1.0,1.0,1.0,1,1,True,True
+58,valid,45,263,manhattan ocean club,manhattan ocean club,1.0,1.0,1.0,1,1,True,True
+59,valid,93,311,veni vidi vici,veni vidi vici,1.0,1.0,1.0,1,1,True,True
+60,valid,94,312,alain rondelli,alain rondelli,1.0,1.0,1.0,1,1,True,True
+61,valid,18,236,pinot bistro,pinot bistro,1.0,1.0,1.0,1,1,True,True
+62,valid,61,279,sign of the dove,sign of the dove,1.0,1.0,1.0,1,1,True,True
+63,valid,25,243,aureole,aureole,1.0,1.0,1.0,1,1,True,True
+64,valid,42,260,les celebrites,les celebrites,1.0,1.0,1.0,1,1,True,True
+65,valid,30,248,chanterelle,chanterelle,1.0,1.0,1.0,1,1,True,True
+66,valid,48,266,mi cocina,mi cocina,1.0,1.0,1.0,1,1,True,True
+67,test,38,256,jo jo,jo jo,1.0,1.0,1.0,1,1,True,True
+68,test,83,301,heera of india,heera of india,1.0,1.0,1.0,1,1,True,True
+69,test,84,302,indigo coastal grill,indigo coastal grill,1.0,1.0,1.0,1,1,True,True
+70,test,74,292,abruzzi,abruzzi,1.0,1.0,1.0,1,1,True,True
+71,test,37,255,island spice,island spice,1.0,1.0,1.0,1,1,True,True
+72,test,39,257,la caravelle,la caravelle,1.0,1.0,1.0,1,1,True,True
+73,test,57,275,san domenico,san domenico,1.0,1.0,1.0,1,1,True,True
+74,test,58,276,second avenue deli,second avenue deli,1.0,1.0,1.0,1,1,True,True
+75,test,75,293,bacchanalia,bacchanalia,1.0,1.0,1.0,1,1,True,True
+76,test,27,245,cafe des artistes,cafe des artistes,1.0,1.0,1.0,1,1,True,True
+77,test,100,318,fleur de lys,fleur de lys,1.0,1.0,1.0,1,1,True,True
+78,test,101,319,fringale,fringale,1.0,1.0,1.0,1,1,True,True
+79,test,28,246,carmine s,carmine s,1.0,1.0,1.0,1,1,True,True
+80,test,36,254,gramercy tavern,gramercy tavern,1.0,1.0,1.0,1,1,True,True
+81,test,96,314,boulevard,boulevard,1.0,1.0,1.0,1,1,True,True
+82,test,108,326,plumpjack cafe,plumpjack cafe,1.0,1.0,1.0,1,1,True,True
+83,train,358,113,teresa s,teresa s,1.0,1.0,1.0,0,1,False,True
+84,test,127,190,cha cha cha,cha cha cha s,0.9692,1.0,0.9846,0,1,False,False
+85,test,82,300,hedgerose heights inn,hedgerose heights inn the,0.968,1.0,0.984,1,1,True,False
+86,train,17,235,philippe s the original,philippe the original,0.9636,1.0,0.9818,1,1,True,False
+87,train,72,290,steak house,steak house the,0.9467,1.0,0.9733,1,1,True,False
+88,train,69,287,le montrachet,le montrachet bistro,0.93,1.0,0.965,1,1,True,False
+89,train,110,309,ritz carlton restaurant and dining room,ritz carlton restaurant,0.9179,1.0,0.959,0,1,False,False
+90,test,170,64,tommy tang s,tommy s,0.9167,1.0,0.9583,0,1,False,False
+91,train,344,106,sarabeth s kitchen,sarabeth s,0.9111,1.0,0.9556,0,1,False,False
+92,valid,51,269,park avenue cafe,park avenue cafe new york city,0.9067,1.0,0.9533,1,1,True,False
+93,valid,68,286,coyote cafe,coyote cafe las vegas,0.9048,1.0,0.9524,1,1,True,False
+94,valid,34,252,four seasons grill room,four seasons,0.9043,1.0,0.9522,1,1,True,False
+95,train,12,230,le chardonnay,le chardonnay los angeles,0.904,1.0,0.952,1,1,True,False
+96,train,9,227,grill on the alley,grill the,0.9,1.0,0.95,1,1,True,False
+97,test,79,297,ciboulette,ciboulette restaurant,0.8952,1.0,0.9476,1,1,True,False
+98,valid,66,284,virgil s,virgil s real bbq,0.8941,1.0,0.9471,1,1,True,False
+99,train,90,308,dining room ritz carlton buckhead,ritz carlton dining room buckhead,0.8939,1.0,0.947,1,1,True,False
+100,train,43,261,lespinasse,lespinasse new york city,0.8833,1.0,0.9417,1,1,True,False
+101,valid,76,294,bone s,bone s restaurant,0.8706,1.0,0.9353,1,1,True,False
+102,test,22,240,yujean kang s gourmet chinese cuisine,yujean kang s,0.8703,1.0,0.9351,1,1,True,False
+103,train,7,225,fenix,fenix at the argyle,0.8526,1.0,0.9263,1,1,True,False
+104,train,105,323,lulu,lulu restaurant bis cafe,0.8333,1.0,0.9167,1,1,True,False
+105,test,107,325,mifune japan center kintetsu building,mifune,0.8324,1.0,0.9162,1,1,True,False
+106,train,423,16,antonio s,don antonio s,0.8048,1.0,0.9024,0,1,False,False
+107,train,89,307,cafe ritz carlton buckhead,ritz carlton cafe buckhead,0.7959,1.0,0.898,1,1,True,False
+108,valid,91,309,restaurant ritz carlton atlanta,ritz carlton restaurant,0.7921,1.0,0.8961,1,1,True,False
+109,test,72,107,steak house,sparks steak house,0.7606,1.0,0.8803,0,1,False,False
+110,train,88,306,pano s and paul s,pano s & paul s,0.9299,0.75,0.84,1,1,True,False
+111,test,71,289,second street grille,second street grill,0.99,0.6667,0.8283,1,1,True,False
+112,train,15,233,the palm,palm the los angeles,0.6333,1.0,0.8167,1,1,True,False
+113,train,10,228,restaurant katsu,katsu,0.6,1.0,0.8,1,1,True,False
+114,train,1,219,art s delicatessen,art s deli,0.9111,0.6667,0.7889,1,1,True,False
+115,valid,464,152,capp s corner,carey s corner,0.9018,0.6667,0.7842,0,1,False,False
+116,train,2,220,hotel bel air,bel air hotel,0.5577,1.0,0.7788,1,1,True,False
+117,train,247,318,fleur de jour,fleur de lys,0.8885,0.6667,0.7776,0,1,False,False
+118,train,110,328,ritz carlton restaurant and dining room,ritz carlton dining room san francisco,0.8794,0.6667,0.773,1,1,True,False
+119,valid,232,47,duane park cafe,ocean park cafe,0.8726,0.6667,0.7697,0,0,True,False
+120,valid,478,289,hayes street grill,second street grill,0.852,0.6667,0.7594,0,0,True,False
+121,train,91,330,restaurant ritz carlton atlanta,ritz carlton cafe atlanta,0.7542,0.75,0.7521,0,0,True,False
+122,test,0,170,arnie morton s of chicago,morton s of chicago atlanta,0.6886,0.8,0.7443,0,0,True,False
+123,train,83,104,heera of india,rose of india,0.8167,0.6667,0.7417,0,0,True,False
+124,train,0,133,arnie morton s of chicago,morton s of chicago las vegas,0.6716,0.8,0.7358,0,0,True,False
+125,valid,274,104,jewel of india,rose of india,0.7778,0.6667,0.7223,0,0,True,False
+126,train,201,12,cafe bianco,cafe blanc,0.9436,0.5,0.7218,0,0,True,False
+127,train,90,307,dining room ritz carlton buckhead,ritz carlton cafe buckhead,0.6861,0.75,0.718,0,0,True,False
+128,train,72,103,steak house,peter luger steak house,0.4354,1.0,0.7177,0,0,True,False
+129,train,345,265,sea grill,mesa grill,0.9296,0.5,0.7148,0,0,True,False
+130,valid,89,308,cafe ritz carlton buckhead,ritz carlton dining room buckhead,0.6709,0.75,0.7105,0,0,True,False
+131,train,207,187,cafe fes,cafe flore,0.915,0.5,0.7075,0,0,True,False
+132,train,457,145,bistro roti,bistro the,0.9055,0.5,0.7027,0,0,True,False
+133,valid,201,221,cafe bianco,cafe bizou,0.9055,0.5,0.7027,0,0,True,False
+134,train,301,263,manhattan cafe,manhattan ocean club,0.9003,0.5,0.7002,0,0,True,False
+135,valid,28,151,carmine s,carey s,0.8889,0.5,0.6944,0,0,True,False
+136,valid,457,6,bistro roti,bistro 45,0.8828,0.5,0.6914,0,0,True,False
+137,train,388,246,camille s,carmine s,0.8815,0.5,0.6907,0,0,True,False
+138,valid,512,47,south park cafe,ocean park cafe,0.701,0.6667,0.6838,0,0,True,False
+139,test,165,223,schatzi on main,chinois on main,0.7,0.6667,0.6833,0,0,True,False
+140,train,283,115,lanza restaurant,thailand restaurant,0.8645,0.5,0.6823,0,0,True,False
+141,train,106,41,masa s,martha s,0.8556,0.5,0.6778,0,0,True,False
+142,train,125,151,canter s,carey s,0.8508,0.5,0.6754,0,0,True,False
+143,train,205,187,cafe pierre,cafe flore,0.8387,0.5,0.6694,0,0,True,False
+144,train,289,259,le jardin,le bernardin,0.8234,0.5,0.6617,0,0,True,False
+145,valid,331,274,popover cafe,river cafe,0.8222,0.5,0.6611,0,0,True,False
+146,test,76,26,bone s,joe s,0.8222,0.5,0.6611,0,0,True,False
+147,train,145,64,jimmy s,tommy s,0.8095,0.5,0.6548,0,0,True,False
+148,train,269,265,inca grill,mesa grill,0.8,0.5,0.65,0,0,True,False
+149,train,452,26,yolie s,joe s,0.7905,0.5,0.6452,0,0,True,False
+150,valid,39,258,la caravelle,la cote basque,0.7881,0.5,0.644,0,0,True,False
+151,valid,221,265,china grill,mesa grill,0.7788,0.5,0.6394,0,0,True,False
+152,train,306,324,matthew s,masa s,0.763,0.5,0.6315,0,0,True,False
+153,train,485,26,jack s,joe s,0.73,0.5,0.615,0,0,True,False
+154,train,106,113,masa s,teresa s,0.7222,0.5,0.6111,0,0,True,False
+155,test,358,324,teresa s,masa s,0.7222,0.5,0.6111,0,0,True,False
+156,valid,145,26,jimmy s,joe s,0.7086,0.5,0.6043,0,0,True,False
+157,train,236,55,ernie s,rae s,0.7071,0.5,0.6036,0,0,True,False
+158,train,76,246,bone s,carmine s,0.7037,0.5,0.6019,0,0,True,False
+159,train,76,55,bone s,rae s,0.7,0.5,0.6,0,0,True,False
+160,valid,133,17,drai s,duke s,0.7,0.5,0.6,0,0,True,False
+161,train,119,66,border grill,water grill,0.6938,0.5,0.5969,0,0,True,False
+162,valid,225,22,corrado cafe,indo cafe,0.6918,0.5,0.5959,0,0,True,False
+163,train,487,110,katia s,sylvia s,0.6905,0.5,0.5952,0,0,True,False
+164,train,452,55,yolie s,rae s,0.6762,0.5,0.5881,0,0,True,False
+165,train,236,26,ernie s,joe s,0.6762,0.5,0.5881,0,0,True,False
+166,train,76,17,bone s,duke s,0.6667,0.5,0.5833,0,0,True,False
+167,train,498,26,moose s,joe s,0.6655,0.5,0.5827,0,0,True,False
+168,train,263,77,hard rock cafe,edison cafe,0.6645,0.5,0.5823,0,0,True,False
+169,test,67,190,chin s,cha cha cha s,0.6615,0.5,0.5808,0,0,True,False
+170,train,433,286,cafe roma,coyote cafe las vegas,0.6262,0.5,0.5631,0,0,True,False
+171,valid,133,218,drai s,arnie morton s of chicago,0.6111,0.5,0.5556,0,0,True,False
+172,valid,438,288,em press court,palace court,0.6002,0.5,0.5501,0,0,True,False
+173,train,67,130,chin s,michael s las vegas,0.5988,0.5,0.5494,0,0,True,False
+174,train,448,285,ralph s diner,chin s,0.5769,0.5,0.5385,0,0,True,False
+175,train,108,214,plumpjack cafe,trio cafe,0.5709,0.5,0.5354,0,0,True,False
+176,train,67,133,chin s,morton s of chicago las vegas,0.569,0.5,0.5345,0,0,True,False
+177,train,388,65,camille s,uncle bill s pancake house,0.5633,0.5,0.5316,0,0,True,False
+178,test,427,125,bertolini s,em eril s new orleans fish house,0.5517,0.5,0.5258,0,0,True,False
+179,train,89,148,cafe ritz carlton buckhead,brookhaven cafe,0.5504,0.5,0.5252,0,0,True,False
+180,valid,444,128,margarita s mexican cantina,madame ching s,0.7138,0.3333,0.5235,0,0,True,False
+181,test,125,40,canter s,mani s bakery & espresso bar,0.5437,0.5,0.5218,0,0,True,False
+182,train,449,290,the bacchanal,steak house the,0.5372,0.5,0.5186,0,0,True,False
+183,valid,444,285,margarita s mexican cantina,chin s,0.537,0.5,0.5185,0,0,True,False
+184,train,438,125,em press court,em eril s new orleans fish house,0.7029,0.3333,0.5181,0,0,True,False
+185,valid,442,138,lillie langtry s,stefano s,0.5227,0.5,0.5113,0,0,True,False
+186,train,257,102,gianni s,patsy s pizza,0.5192,0.5,0.5096,0,0,True,False
+187,train,428,138,binion s coffee shop,stefano s,0.5167,0.5,0.5083,0,0,True,False
+188,train,532,187,zuni cafe & grill,cafe flore,0.5121,0.5,0.506,0,0,True,False
+189,valid,506,191,perry s,doidge s,0.5119,0.5,0.506,0,0,True,False
+190,test,498,55,moose s,rae s,0.5095,0.5,0.5048,0,0,True,False
+191,train,427,285,bertolini s,chin s,0.5051,0.5,0.5025,0,0,True,False
+192,train,427,128,bertolini s,madame ching s,0.5039,0.5,0.5019,0,0,True,False
+193,train,461,214,cafe adriano,trio cafe,0.4907,0.5,0.4954,0,0,True,False
+194,train,461,326,cafe adriano,plumpjack cafe,0.4881,0.5,0.494,0,0,True,False
+195,test,448,128,ralph s diner,madame ching s,0.6456,0.3333,0.4895,0,0,True,False
+196,train,423,124,antonio s,buzio s in the rio,0.4778,0.5,0.4889,0,0,True,False
+197,train,72,125,steak house,em eril s new orleans fish house,0.4755,0.5,0.4878,0,0,True,False
+198,train,427,130,bertolini s,michael s las vegas,0.4726,0.5,0.4863,0,0,True,False
+199,test,15,3,the palm,belvedere the,0.4679,0.5,0.484,0,0,True,False
+200,valid,106,190,masa s,cha cha cha s,0.4658,0.5,0.4829,0,0,True,False
+201,train,452,134,yolie s,nicky blair s,0.4597,0.5,0.4799,0,0,True,False
+202,test,427,133,bertolini s,morton s of chicago las vegas,0.4592,0.5,0.4796,0,0,True,False
+203,valid,531,121,zarzuela,zarela,0.9417,0.0,0.4708,0,0,True,False
+204,train,67,125,chin s,em eril s new orleans fish house,0.4306,0.5,0.4653,0,0,True,False
+205,test,73,291,tillerman,till erman the,0.9286,0.0,0.4643,1,0,False,False
+206,valid,1,56,art s delicatessen,rubin s red hots,0.5949,0.3333,0.4641,0,0,True,False
+207,valid,424,128,bally s big kitchen,madame ching s,0.5944,0.3333,0.4639,0,0,True,False
+208,test,393,175,dante s down the hatch buckhead,palm the atlanta,0.5899,0.3333,0.4616,0,0,True,False
+209,train,428,127,binion s coffee shop,hugo s cellar,0.5872,0.3333,0.4603,0,0,True,False
+210,train,67,128,chin s,madame ching s,0.4127,0.5,0.4563,0,0,True,False
+211,valid,263,245,hard rock cafe,cafe des artistes,0.5765,0.3333,0.4549,0,0,True,False
+212,train,72,137,steak house,steakhouse the,0.9026,0.0,0.4513,0,0,True,False
+213,train,424,285,bally s big kitchen,chin s,0.386,0.5,0.443,0,0,True,False
+214,train,393,307,dante s down the hatch buckhead,ritz carlton cafe buckhead,0.6321,0.25,0.4411,0,0,True,False
+215,train,91,170,restaurant ritz carlton atlanta,morton s of chicago atlanta,0.6287,0.25,0.4394,0,0,True,False
+216,valid,444,133,margarita s mexican cantina,morton s of chicago las vegas,0.6218,0.25,0.4359,0,0,True,False
+217,train,448,130,ralph s diner,michael s las vegas,0.533,0.3333,0.4332,0,0,True,False
+218,test,448,133,ralph s diner,morton s of chicago las vegas,0.5219,0.3333,0.4276,0,0,True,False
+219,test,431,128,bugsy s diner,madame ching s,0.5189,0.3333,0.4261,0,0,True,False
+220,test,448,125,ralph s diner,em eril s new orleans fish house,0.5097,0.3333,0.4215,0,0,True,False
+221,train,442,127,lillie langtry s,hugo s cellar,0.5011,0.3333,0.4172,0,0,True,False
+222,train,424,130,bally s big kitchen,michael s las vegas,0.5842,0.25,0.4171,0,0,True,False
+223,train,431,285,bugsy s diner,chin s,0.3291,0.5,0.4145,0,0,True,False
+224,valid,161,59,rj s the rib joint,ruth s chris steak house los angeles,0.6214,0.2,0.4107,0,0,True,False
+225,train,451,124,viva mercado s,buzio s in the rio,0.4868,0.3333,0.4101,0,0,True,False
+226,train,106,198,masa s,kelly s on trinity,0.3148,0.5,0.4074,0,0,True,False
+227,train,431,125,bugsy s diner,em eril s new orleans fish house,0.476,0.3333,0.4046,0,0,True,False
+228,train,393,308,dante s down the hatch buckhead,ritz carlton dining room buckhead,0.6004,0.2,0.4002,0,0,True,False
+229,valid,444,130,margarita s mexican cantina,michael s las vegas,0.549,0.25,0.3995,0,0,True,False
+230,train,413,65,r j s uptown kitchen & wine bar,uncle bill s pancake house,0.587,0.2,0.3935,0,0,True,False
+231,train,444,125,margarita s mexican cantina,em eril s new orleans fish house,0.5267,0.25,0.3883,0,0,True,False
+232,train,152,59,nate n al s,ruth s chris steak house los angeles,0.5248,0.25,0.3874,0,0,True,False
+233,train,424,133,bally s big kitchen,morton s of chicago las vegas,0.5164,0.25,0.3832,0,0,True,False
+234,valid,62,119,smith & wollensky,wollensky s grill,0.4297,0.3333,0.3815,0,0,True,False
+235,train,431,130,bugsy s diner,michael s las vegas,0.4258,0.3333,0.3796,0,0,True,False
+236,test,424,125,bally s big kitchen,em eril s new orleans fish house,0.5045,0.25,0.3773,0,0,True,False
+237,train,431,133,bugsy s diner,morton s of chicago las vegas,0.4173,0.3333,0.3753,0,0,True,False
+238,train,290,260,le madri,les celebrites,0.7286,0.0,0.3643,0,0,True,False
+239,test,41,260,le bernardin,les celebrites,0.7175,0.0,0.3587,0,0,True,False
+240,train,72,139,steak house,sterling brunch,0.7172,0.0,0.3586,0,0,True,False
+241,train,422,310,tomtom,toulouse,0.7,0.0,0.35,0,0,True,False
+242,valid,68,131,coyote cafe,monte carlo,0.697,0.0,0.3485,0,0,True,False
+243,train,410,175,palisades,palm the atlanta,0.6892,0.0,0.3446,0,0,True,False
+244,test,121,222,ca brea,campanile,0.6709,0.0,0.3354,0,0,True,False
+245,valid,490,329,l osteria del forno,rose pistola,0.6699,0.0,0.3349,0,0,True,False
+246,train,291,260,le marais,les celebrites,0.6698,0.0,0.3349,0,0,True,False
+247,train,421,142,taste of new orleans,alon s at the terrace,0.6698,0.0,0.3349,0,0,True,False
+248,train,34,89,four seasons grill room,la grenouille,0.6687,0.0,0.3344,0,0,True,False
+249,train,433,288,cafe roma,palace court,0.668,0.0,0.334,0,0,True,False
+250,test,492,312,le soleil,alain rondelli,0.664,0.0,0.332,0,0,True,False
+251,test,501,214,oritalia,trio cafe,0.6602,0.0,0.3301,0,0,True,False
+252,valid,277,89,judson grill,la grenouille,0.6565,0.0,0.3283,0,0,True,False
+253,train,159,236,posto,pinot bistro,0.655,0.0,0.3275,0,0,True,False
+254,train,427,140,bertolini s,tre visi,0.654,0.0,0.327,0,0,True,False
+255,test,431,123,bugsy s diner,buccaneer bay club,0.6493,0.0,0.3246,0,0,True,False
+256,test,292,89,le perigord,la grenouille,0.6453,0.0,0.3227,0,0,True,False
+257,train,90,174,dining room ritz carlton buckhead,original pancake house at,0.6437,0.0,0.3218,0,0,True,False
+258,valid,151,45,morton s,mo better meatty meat,0.6435,0.0,0.3217,0,0,True,False
+259,train,135,224,eclipse,citrus,0.6429,0.0,0.3214,0,0,True,False
+260,test,356,257,tang pavillion,la caravelle,0.6429,0.0,0.3214,0,0,True,False
+261,train,446,130,mikado,michael s las vegas,0.6421,0.0,0.3211,0,0,True,False
+262,train,43,262,lespinasse,lutece,0.64,0.0,0.32,0,0,True,False
+263,train,35,120,gotham bar & grill,yama,0.6389,0.0,0.3194,0,0,True,False
+264,valid,89,174,cafe ritz carlton buckhead,original pancake house at,0.6374,0.0,0.3187,0,0,True,False
+265,test,202,275,cafe botanica,san domenico,0.6358,0.0,0.3179,0,0,True,False
+266,train,72,136,steak house,spago las vegas,0.6336,0.0,0.3168,0,0,True,False
+267,train,287,262,le colonial,lutece,0.6318,0.0,0.3159,0,0,True,False
+268,test,71,138,second street grille,stefano s,0.6312,0.0,0.3156,0,0,True,False
+269,train,427,139,bertolini s,sterling brunch,0.6296,0.0,0.3148,0,0,True,False
+270,train,440,289,golden nugget hotel,second street grill,0.6294,0.0,0.3147,0,0,True,False
+271,train,405,303,luna si,la grotta,0.6286,0.0,0.3143,0,0,True,False
+272,train,465,187,carta,cafe flore,0.6267,0.0,0.3133,0,0,True,False
+273,train,486,321,kabuto sushi,khan toke thai house,0.6267,0.0,0.3133,0,0,True,False
+274,train,86,169,mary mac s tea room,majestic,0.6235,0.0,0.3118,0,0,True,False
+275,train,421,330,taste of new orleans,ritz carlton cafe atlanta,0.6224,0.0,0.3112,0,0,True,False
+276,train,72,140,steak house,tre visi,0.6212,0.0,0.3106,0,0,True,False
+277,train,326,119,pen & pencil,wollensky s grill,0.6176,0.0,0.3088,0,0,True,False
+278,train,437,285,circus circus,chin s,0.6173,0.0,0.3087,0,0,True,False
+279,valid,326,261,pen & pencil,lespinasse new york city,0.6167,0.0,0.3083,0,0,True,False
+280,train,446,128,mikado,madame ching s,0.6143,0.0,0.3071,0,0,True,False
+281,valid,449,131,the bacchanal,monte carlo,0.6134,0.0,0.3067,0,0,True,False
+282,test,447,129,pamplemousse,mayflower cuisinier,0.6126,0.0,0.3063,0,0,True,False
+283,valid,12,62,le chardonnay,sweet lady jane,0.6121,0.0,0.306,0,0,True,False
+284,train,71,137,second street grille,steakhouse the,0.6112,0.0,0.3056,0,0,True,False
+285,test,433,123,cafe roma,buccaneer bay club,0.6111,0.0,0.3056,0,0,True,False
+286,train,373,268,vong,oceana,0.6111,0.0,0.3056,0,0,True,False
+287,train,89,303,cafe ritz carlton buckhead,la grotta,0.6109,0.0,0.3055,0,0,True,False
+288,train,151,230,morton s,le chardonnay los angeles,0.6078,0.0,0.3039,0,0,True,False
+289,valid,230,245,dix et sept,cafe des artistes,0.6076,0.0,0.3038,0,0,True,False
+290,train,309,268,monkey bar,oceana,0.6056,0.0,0.3028,0,0,True,False
+291,valid,393,174,dante s down the hatch buckhead,original pancake house at,0.6055,0.0,0.3028,0,0,True,False
+292,valid,143,27,jack sprat s grill,john o groats,0.6054,0.0,0.3027,0,0,True,False
+293,train,449,123,the bacchanal,buccaneer bay club,0.6011,0.0,0.3006,0,0,True,False
+294,train,374,262,water club,lutece,0.6,0.0,0.3,0,0,True,False
+295,train,438,290,em press court,steak house the,0.5995,0.0,0.2997,0,0,True,False
+296,train,91,142,restaurant ritz carlton atlanta,alon s at the terrace,0.5994,0.0,0.2997,0,0,True,False
+297,valid,273,258,jean lafitte,la cote basque,0.5992,0.0,0.2996,0,0,True,False
+298,test,68,288,coyote cafe,palace court,0.5985,0.0,0.2992,0,0,True,False
+299,train,89,295,cafe ritz carlton buckhead,brasserie le coze,0.5975,0.0,0.2987,0,0,True,False
+300,train,421,309,taste of new orleans,ritz carlton restaurant,0.5974,0.0,0.2987,0,0,True,False
+301,train,43,258,lespinasse,la cote basque,0.5971,0.0,0.2986,0,0,True,False
+302,test,111,189,rose pistola,campo santo,0.597,0.0,0.2985,0,0,True,False
+303,test,405,172,luna si,nava,0.5952,0.0,0.2976,0,0,True,False
+304,valid,323,243,parioli romanissimo,aureole,0.594,0.0,0.297,0,0,True,False
+305,train,318,270,osteria al droge,petrossian,0.5935,0.0,0.2967,0,0,True,False
+306,train,68,132,coyote cafe,moongate,0.5932,0.0,0.2966,0,0,True,False
+307,train,67,286,chin s,coyote cafe las vegas,0.5929,0.0,0.2964,0,0,True,False
+308,train,444,140,margarita s mexican cantina,tre visi,0.5924,0.0,0.2962,0,0,True,False
+309,train,463,322,california culinary academy,la folie,0.5924,0.0,0.2962,0,0,True,False
+310,valid,168,230,tavola calda,le chardonnay los angeles,0.5922,0.0,0.2961,0,0,True,False
+311,train,88,150,pano s and paul s,canoe,0.5922,0.0,0.2961,0,0,True,False
+312,train,393,184,dante s down the hatch buckhead,white house restaurant,0.5916,0.0,0.2958,0,0,True,False
+313,train,522,321,ton kiang,khan toke thai house,0.5902,0.0,0.2951,0,0,True,False
+314,train,151,30,morton s,johnny rockets la,0.5899,0.0,0.2949,0,0,True,False
+315,train,425,124,bamboo garden,buzio s in the rio,0.5885,0.0,0.2942,0,0,True,False
+316,train,44,261,lutece,lespinasse new york city,0.5875,0.0,0.2938,0,0,True,False
+317,train,181,245,alley s end,cafe des artistes,0.5875,0.0,0.2937,0,0,True,False
+318,train,480,321,hong kong flower lounge,khan toke thai house,0.5852,0.0,0.2926,0,0,True,False
+319,train,492,186,le soleil,bill s place,0.5833,0.0,0.2917,0,0,True,False
+320,train,444,132,margarita s mexican cantina,moongate,0.5831,0.0,0.2915,0,0,True,False
+321,train,176,192,9 jones street,dottie s true blue cafe,0.583,0.0,0.2915,0,0,True,False
+322,valid,449,140,the bacchanal,tre visi,0.5817,0.0,0.2909,0,0,True,False
+323,train,82,153,hedgerose heights inn,chops,0.581,0.0,0.2905,0,0,True,False
+324,train,410,174,palisades,original pancake house at,0.58,0.0,0.29,0,0,True,False
+325,train,104,211,la folie,swan oyster depot,0.5784,0.0,0.2892,0,0,True,False
+326,train,319,75,otabe,darbar,0.5778,0.0,0.2889,0,0,True,False
+327,valid,70,290,palace court,steak house the,0.5778,0.0,0.2889,0,0,True,False
+328,train,449,286,the bacchanal,coyote cafe las vegas,0.5773,0.0,0.2887,0,0,True,False
+329,train,396,330,french quarter food shop,ritz carlton cafe atlanta,0.5767,0.0,0.2883,0,0,True,False
+330,train,18,56,pinot bistro,rubin s red hots,0.5764,0.0,0.2882,0,0,True,False
+331,train,479,88,helmand,la caridad,0.5762,0.0,0.2881,0,0,True,False
+332,train,52,251,petrossian,felidia,0.5762,0.0,0.2881,0,0,True,False
+333,train,33,270,felidia,petrossian,0.5762,0.0,0.2881,0,0,True,False
+334,valid,342,242,san pietro,aquavit,0.5762,0.0,0.2881,0,0,True,False
+335,valid,449,133,the bacchanal,morton s of chicago las vegas,0.575,0.0,0.2875,0,0,True,False
+336,train,410,172,palisades,nava,0.5741,0.0,0.287,0,0,True,False
+337,train,12,30,le chardonnay,johnny rockets la,0.5739,0.0,0.287,0,0,True,False
+338,train,43,251,lespinasse,felidia,0.5738,0.0,0.2869,0,0,True,False
+339,train,448,136,ralph s diner,spago las vegas,0.5731,0.0,0.2866,0,0,True,False
+340,train,72,130,steak house,michael s las vegas,0.573,0.0,0.2865,0,0,True,False
+341,train,273,263,jean lafitte,manhattan ocean club,0.573,0.0,0.2865,0,0,True,False
+342,valid,437,123,circus circus,buccaneer bay club,0.571,0.0,0.2855,0,0,True,False
+343,train,168,30,tavola calda,johnny rockets la,0.5703,0.0,0.2851,0,0,True,False
+344,test,89,184,cafe ritz carlton buckhead,white house restaurant,0.5702,0.0,0.2851,0,0,True,False
+345,test,433,131,cafe roma,monte carlo,0.57,0.0,0.285,0,0,True,False
+346,test,89,175,cafe ritz carlton buckhead,palm the atlanta,0.5699,0.0,0.2849,0,0,True,False
+347,test,72,131,steak house,monte carlo,0.5697,0.0,0.2848,0,0,True,False
+348,test,410,310,palisades,toulouse,0.5694,0.0,0.2847,0,0,True,False
+349,valid,43,93,lespinasse,menchanko tei,0.5692,0.0,0.2846,0,0,True,False
+350,valid,119,146,border grill,bobby & june s kountry kitchen,0.5689,0.0,0.2844,0,0,True,False
+351,train,90,303,dining room ritz carlton buckhead,la grotta,0.5681,0.0,0.284,0,0,True,False
+352,train,463,202,california culinary academy,mario s bohemian cigar store cafe,0.5679,0.0,0.2839,0,0,True,False
+353,valid,189,107,barbetta,sparks steak house,0.5676,0.0,0.2838,0,0,True,False
+354,train,329,270,planet hollywood,petrossian,0.5675,0.0,0.2838,0,0,True,False
+355,train,405,309,luna si,ritz carlton restaurant,0.5671,0.0,0.2836,0,0,True,False
+356,train,205,243,cafe pierre,aureole,0.5671,0.0,0.2835,0,0,True,False
+357,train,429,290,bistro,steak house the,0.5667,0.0,0.2833,0,0,True,False
+358,train,433,285,cafe roma,chin s,0.5667,0.0,0.2833,0,0,True,False
+359,valid,500,187,one market,cafe flore,0.5667,0.0,0.2833,0,0,True,False
+360,test,326,278,pen & pencil,shun lee palace,0.5667,0.0,0.2833,0,0,True,False
+361,test,71,127,second street grille,hugo s cellar,0.566,0.0,0.283,0,0,True,False
+362,train,43,257,lespinasse,la caravelle,0.565,0.0,0.2825,0,0,True,False
+363,valid,431,136,bugsy s diner,spago las vegas,0.565,0.0,0.2825,0,0,True,False
+364,train,286,278,le chantilly,shun lee palace,0.5643,0.0,0.2821,0,0,True,False
+365,test,70,136,palace court,spago las vegas,0.5643,0.0,0.2821,0,0,True,False
+366,valid,446,132,mikado,moongate,0.5625,0.0,0.2812,0,0,True,False
+367,train,37,284,island spice,virgil s real bbq,0.5621,0.0,0.281,0,0,True,False
+368,train,444,139,margarita s mexican cantina,sterling brunch,0.5621,0.0,0.281,0,0,True,False
+369,train,396,309,french quarter food shop,ritz carlton restaurant,0.5613,0.0,0.2806,0,0,True,False
+370,valid,348,84,sfuzzi,john s pizzeria,0.5611,0.0,0.2806,0,0,True,False
+371,train,438,136,em press court,spago las vegas,0.5603,0.0,0.2802,0,0,True,False
+372,valid,440,137,golden nugget hotel,steakhouse the,0.56,0.0,0.28,0,0,True,False
+373,train,39,242,la caravelle,aquavit,0.5595,0.0,0.2798,0,0,True,False
+374,valid,24,257,aquavit,la caravelle,0.5595,0.0,0.2798,0,0,True,False
+375,valid,295,271,lincoln tavern,picholine,0.5595,0.0,0.2798,0,0,True,False
+376,train,530,327,yoyo tsumami bistro,postrio,0.5591,0.0,0.2796,0,0,True,False
+377,valid,65,249,union square cafe,daniel,0.5588,0.0,0.2794,0,0,True,False
+378,valid,31,283,daniel,union square cafe,0.5588,0.0,0.2794,0,0,True,False
+379,train,70,123,palace court,buccaneer bay club,0.5579,0.0,0.2789,0,0,True,False
+380,test,72,288,steak house,palace court,0.5571,0.0,0.2785,0,0,True,False
+381,test,442,289,lillie langtry s,second street grill,0.557,0.0,0.2785,0,0,True,False
+382,train,67,123,chin s,buccaneer bay club,0.5556,0.0,0.2778,0,0,True,False
+383,train,43,278,lespinasse,shun lee palace,0.5556,0.0,0.2778,0,0,True,False
+384,train,468,246,des alpes,carmine s,0.5556,0.0,0.2778,0,0,True,False
+385,train,120,4,broadway deli,benita s frites,0.5554,0.0,0.2777,0,0,True,False
+386,train,68,285,coyote cafe,chin s,0.5545,0.0,0.2773,0,0,True,False
+387,test,440,127,golden nugget hotel,hugo s cellar,0.5538,0.0,0.2769,0,0,True,False
+388,train,498,316,moose s,campton place,0.5531,0.0,0.2766,0,0,True,False
+389,train,90,184,dining room ritz carlton buckhead,white house restaurant,0.553,0.0,0.2765,0,0,True,False
+390,train,423,126,antonio s,fiore rotisserie & grille,0.5522,0.0,0.2761,0,0,True,False
+391,train,112,89,bolo,la grenouille,0.5513,0.0,0.2756,0,0,True,False
+392,train,379,169,abbey,majestic,0.55,0.0,0.275,0,0,True,False
+393,test,410,295,palisades,brasserie le coze,0.5499,0.0,0.2749,0,0,True,False
+394,train,247,89,fleur de jour,la grenouille,0.5495,0.0,0.2747,0,0,True,False
+395,train,437,139,circus circus,sterling brunch,0.5493,0.0,0.2747,0,0,True,False
+396,train,449,139,the bacchanal,sterling brunch,0.5493,0.0,0.2747,0,0,True,False
+397,train,68,140,coyote cafe,tre visi,0.5492,0.0,0.2746,0,0,True,False
+398,valid,318,284,osteria al droge,virgil s real bbq,0.5492,0.0,0.2746,0,0,True,False
+399,test,131,3,dive,belvedere the,0.5491,0.0,0.2746,0,0,True,False
+400,train,463,217,california culinary academy,wa ha ka oaxaca mexican grill,0.5481,0.0,0.2741,0,0,True,False
+401,train,451,291,viva mercado s,till erman the,0.5476,0.0,0.2738,0,0,True,False
+402,train,386,309,bistango,ritz carlton restaurant,0.5475,0.0,0.2737,0,0,True,False
+403,train,66,255,virgil s,island spice,0.5472,0.0,0.2736,0,0,True,False
+404,train,438,131,em press court,monte carlo,0.5469,0.0,0.2734,0,0,True,False
+405,test,432,291,cafe michelle,till erman the,0.5467,0.0,0.2734,0,0,True,False
+406,valid,276,13,joe allen,cassell s,0.5463,0.0,0.2731,0,0,True,False
+407,valid,162,4,remi,benita s frites,0.5444,0.0,0.2722,0,0,True,False
+408,test,68,139,coyote cafe,sterling brunch,0.5434,0.0,0.2717,0,0,True,False
+409,train,62,107,smith & wollensky,sparks steak house,0.5433,0.0,0.2716,0,0,True,False
+410,train,381,167,annie s thai castle,la fonda latina,0.5431,0.0,0.2715,0,0,True,False
+411,train,240,84,ferrier,john s pizzeria,0.5429,0.0,0.2714,0,0,True,False
+412,train,68,133,coyote cafe,morton s of chicago las vegas,0.5427,0.0,0.2714,0,0,True,False
+413,test,386,330,bistango,ritz carlton cafe atlanta,0.5417,0.0,0.2708,0,0,True,False
+414,test,424,123,bally s big kitchen,buccaneer bay club,0.5415,0.0,0.2707,0,0,True,False
+415,train,21,55,valentino,rae s,0.5407,0.0,0.2704,0,0,True,False
+416,valid,214,254,caffe bondi ristorante,gramercy tavern,0.5404,0.0,0.2702,0,0,True,False
+417,test,444,131,margarita s mexican cantina,monte carlo,0.5401,0.0,0.2701,0,0,True,False
+418,train,16,230,patina,le chardonnay los angeles,0.54,0.0,0.27,0,0,True,False
+419,test,6,230,citrus,le chardonnay los angeles,0.54,0.0,0.27,0,0,True,False
+420,test,502,325,pacific pan pacific hotel,mifune,0.54,0.0,0.27,0,0,True,False
+421,train,510,327,sanppo,postrio,0.5397,0.0,0.2698,0,0,True,False
+422,test,148,17,le dome,duke s,0.5397,0.0,0.2698,0,0,True,False
+423,test,406,65,mambo restaurante cubano,uncle bill s pancake house,0.5395,0.0,0.2698,0,0,True,False
+424,valid,396,142,french quarter food shop,alon s at the terrace,0.5395,0.0,0.2698,0,0,True,False
+425,train,317,284,orso,virgil s real bbq,0.5392,0.0,0.2696,0,0,True,False
+426,train,373,119,vong,wollensky s grill,0.5392,0.0,0.2696,0,0,True,False
+427,valid,284,107,lattanzi ristorante,sparks steak house,0.5385,0.0,0.2692,0,0,True,False
+428,train,274,284,jewel of india,virgil s real bbq,0.5383,0.0,0.2691,0,0,True,False
+429,train,405,174,luna si,original pancake house at,0.5381,0.0,0.269,0,0,True,False
+430,train,138,223,gilliland s,chinois on main,0.5374,0.0,0.2687,0,0,True,False
+431,train,68,290,coyote cafe,steak house the,0.5374,0.0,0.2687,0,0,True,False
+432,valid,72,128,steak house,madame ching s,0.5372,0.0,0.2686,0,0,True,False
+433,train,393,303,dante s down the hatch buckhead,la grotta,0.5367,0.0,0.2684,0,0,True,False
+434,train,170,45,tommy tang s,mo better meatty meat,0.5367,0.0,0.2684,0,0,True,False
+435,valid,96,201,boulevard,la taqueria,0.5367,0.0,0.2684,0,0,True,False
+436,train,449,128,the bacchanal,madame ching s,0.5366,0.0,0.2683,0,0,True,False
+437,train,437,140,circus circus,tre visi,0.5365,0.0,0.2683,0,0,True,False
+438,train,481,312,hong kong villa,alain rondelli,0.5365,0.0,0.2683,0,0,True,False
+439,valid,438,139,em press court,sterling brunch,0.5365,0.0,0.2683,0,0,True,False
+440,train,429,133,bistro,morton s of chicago las vegas,0.5352,0.0,0.2676,0,0,True,False
+441,train,373,289,vong,second street grill,0.5351,0.0,0.2675,0,0,True,False
+442,test,86,156,mary mac s tea room,eats,0.5351,0.0,0.2675,0,0,True,False
+443,train,429,123,bistro,buccaneer bay club,0.5333,0.0,0.2667,0,0,True,False
+444,train,481,186,hong kong villa,bill s place,0.5333,0.0,0.2667,0,0,True,False
+445,test,197,270,bruno,petrossian,0.5333,0.0,0.2667,0,0,True,False
+446,test,309,256,monkey bar,jo jo,0.5333,0.0,0.2667,0,0,True,False
+447,test,449,130,the bacchanal,michael s las vegas,0.533,0.0,0.2665,0,0,True,False
+448,valid,104,217,la folie,wa ha ka oaxaca mexican grill,0.5325,0.0,0.2662,0,0,True,False
+449,train,446,131,mikado,monte carlo,0.5318,0.0,0.2659,0,0,True,False
+450,valid,167,23,swingers,jan s family restaurant,0.5314,0.0,0.2657,0,0,True,False
+451,test,146,238,joss,spago los angeles,0.531,0.0,0.2655,0,0,True,False
+452,valid,318,255,osteria al droge,island spice,0.5308,0.0,0.2654,0,0,True,False
+453,train,72,133,steak house,morton s of chicago las vegas,0.5307,0.0,0.2653,0,0,True,False
+454,train,433,133,cafe roma,morton s of chicago las vegas,0.5302,0.0,0.2651,0,0,True,False
+455,train,428,289,binion s coffee shop,second street grill,0.5301,0.0,0.2651,0,0,True,False
+456,train,140,23,hard rock cafe,jan s family restaurant,0.53,0.0,0.265,0,0,True,False
+457,valid,427,123,bertolini s,buccaneer bay club,0.5297,0.0,0.2648,0,0,True,False
+458,valid,491,198,le central,kelly s on trinity,0.5296,0.0,0.2648,0,0,True,False
+459,train,446,133,mikado,morton s of chicago las vegas,0.5289,0.0,0.2644,0,0,True,False
+460,test,148,225,le dome,fenix at the argyle,0.5288,0.0,0.2644,0,0,True,False
+461,valid,463,211,california culinary academy,swan oyster depot,0.5283,0.0,0.2642,0,0,True,False
+462,train,151,234,morton s,patina,0.5278,0.0,0.2639,0,0,True,False
+463,valid,429,140,bistro,tre visi,0.5278,0.0,0.2639,0,0,True,False
+464,train,381,149,annie s thai castle,cafe sunflower,0.5276,0.0,0.2638,0,0,True,False
+465,train,95,195,aqua,em erald garden restaurant,0.5256,0.0,0.2628,0,0,True,False
+466,train,89,172,cafe ritz carlton buckhead,nava,0.5256,0.0,0.2628,0,0,True,False
+467,train,448,139,ralph s diner,sterling brunch,0.5255,0.0,0.2628,0,0,True,False
+468,valid,104,202,la folie,mario s bohemian cigar store cafe,0.5255,0.0,0.2628,0,0,True,False
+469,test,92,148,toulouse,brookhaven cafe,0.525,0.0,0.2625,0,0,True,False
+470,train,469,318,faz,fleur de lys,0.525,0.0,0.2625,0,0,True,False
+471,train,424,139,bally s big kitchen,sterling brunch,0.5246,0.0,0.2623,0,0,True,False
+472,valid,356,261,tang pavillion,lespinasse new york city,0.5245,0.0,0.2622,0,0,True,False
+473,train,230,270,dix et sept,petrossian,0.5242,0.0,0.2621,0,0,True,False
+474,train,479,51,helmand,pho hoa,0.5238,0.0,0.2619,0,0,True,False
+475,valid,405,292,luna si,abruzzi,0.5238,0.0,0.2619,0,0,True,False
+476,train,159,61,posto,sushi nozawa,0.5222,0.0,0.2611,0,0,True,False
+477,train,168,62,tavola calda,sweet lady jane,0.5222,0.0,0.2611,0,0,True,False
+478,valid,70,139,palace court,sterling brunch,0.5222,0.0,0.2611,0,0,True,False
+479,train,89,299,cafe ritz carlton buckhead,georgia grille,0.5222,0.0,0.2611,0,0,True,False
+480,valid,170,30,tommy tang s,johnny rockets la,0.5222,0.0,0.2611,0,0,True,False
+481,valid,277,284,judson grill,virgil s real bbq,0.5222,0.0,0.2611,0,0,True,False
+482,test,433,130,cafe roma,michael s las vegas,0.5219,0.0,0.261,0,0,True,False
+483,train,90,172,dining room ritz carlton buckhead,nava,0.5202,0.0,0.2601,0,0,True,False
+484,train,205,261,cafe pierre,lespinasse new york city,0.5202,0.0,0.2601,0,0,True,False
+485,train,448,140,ralph s diner,tre visi,0.5192,0.0,0.2596,0,0,True,False
+486,test,309,258,monkey bar,la cote basque,0.519,0.0,0.2595,0,0,True,False
+487,test,148,238,le dome,spago los angeles,0.5189,0.0,0.2595,0,0,True,False
+488,train,156,122,pacific dining car,andre s french restaurant,0.5185,0.0,0.2593,0,0,True,False
+489,train,386,170,bistango,morton s of chicago atlanta,0.5185,0.0,0.2593,0,0,True,False
+490,test,384,300,beesley s of buckhead,hedgerose heights inn the,0.5182,0.0,0.2591,0,0,True,False
+491,train,398,152,horseradish grill,carey s corner,0.5182,0.0,0.2591,0,0,True,False
+492,train,424,286,bally s big kitchen,coyote cafe las vegas,0.5175,0.0,0.2588,0,0,True,False
+493,train,3,219,cafe bizou,art s deli,0.5167,0.0,0.2583,0,0,True,False
+494,train,11,218,l orangerie,arnie morton s of chicago,0.5158,0.0,0.2579,0,0,True,False
+495,train,406,302,mambo restaurante cubano,indigo coastal grill,0.5157,0.0,0.2579,0,0,True,False
+496,train,70,131,palace court,monte carlo,0.5152,0.0,0.2576,0,0,True,False
+497,train,446,125,mikado,em eril s new orleans fish house,0.5139,0.0,0.2569,0,0,True,False
+498,train,151,224,morton s,citrus,0.5139,0.0,0.2569,0,0,True,False
+499,valid,67,140,chin s,tre visi,0.5139,0.0,0.2569,0,0,True,False
+500,train,72,286,steak house,coyote cafe las vegas,0.5137,0.0,0.2569,0,0,True,False
+501,train,278,245,l absinthe,cafe des artistes,0.5121,0.0,0.256,0,0,True,False
+502,test,438,133,em press court,morton s of chicago las vegas,0.5116,0.0,0.2558,0,0,True,False
+503,train,438,123,em press court,buccaneer bay club,0.5106,0.0,0.2553,0,0,True,False
+504,train,295,245,lincoln tavern,cafe des artistes,0.5105,0.0,0.2553,0,0,True,False
+505,test,502,327,pacific pan pacific hotel,postrio,0.5097,0.0,0.2549,0,0,True,False
+506,train,490,189,l osteria del forno,campo santo,0.5093,0.0,0.2547,0,0,True,False
+507,train,90,299,dining room ritz carlton buckhead,georgia grille,0.5089,0.0,0.2544,0,0,True,False
+508,train,15,12,the palm,cafe blanc,0.5083,0.0,0.2542,0,0,True,False
+509,valid,290,270,le madri,petrossian,0.5083,0.0,0.2542,0,0,True,False
+510,train,438,128,em press court,madame ching s,0.5079,0.0,0.254,0,0,True,False
+511,train,441,129,golden steer,mayflower cuisinier,0.5077,0.0,0.2539,0,0,True,False
+512,train,111,188,rose pistola,caffe greco,0.5076,0.0,0.2538,0,0,True,False
+513,train,433,125,cafe roma,em eril s new orleans fish house,0.5069,0.0,0.2535,0,0,True,False
+514,train,291,284,le marais,virgil s real bbq,0.5065,0.0,0.2533,0,0,True,False
+515,train,431,290,bugsy s diner,steak house the,0.506,0.0,0.253,0,0,True,False
+516,train,424,290,bally s big kitchen,steak house the,0.5056,0.0,0.2528,0,0,True,False
+517,valid,282,255,la reserve,island spice,0.5056,0.0,0.2528,0,0,True,False
+518,train,221,277,china grill,seryna,0.5051,0.0,0.2525,0,0,True,False
+519,valid,67,131,chin s,monte carlo,0.5051,0.0,0.2525,0,0,True,False
+520,valid,72,285,steak house,chin s,0.5051,0.0,0.2525,0,0,True,False
+521,train,438,286,em press court,coyote cafe las vegas,0.505,0.0,0.2525,0,0,True,False
+522,train,12,45,le chardonnay,mo better meatty meat,0.5049,0.0,0.2524,0,0,True,False
+523,test,405,330,luna si,ritz carlton cafe atlanta,0.5048,0.0,0.2524,0,0,True,False
+524,train,433,128,cafe roma,madame ching s,0.5042,0.0,0.2521,0,0,True,False
+525,test,274,271,jewel of india,picholine,0.5042,0.0,0.2521,0,0,True,False
+526,train,438,130,em press court,michael s las vegas,0.5038,0.0,0.2519,0,0,True,False
+527,valid,427,131,bertolini s,monte carlo,0.503,0.0,0.2515,0,0,True,False
+528,train,468,51,des alpes,pho hoa,0.5026,0.0,0.2513,0,0,True,False
+529,train,155,22,orleans,indo cafe,0.5026,0.0,0.2513,0,0,True,False
+530,train,410,292,palisades,abruzzi,0.5026,0.0,0.2513,0,0,True,False
+531,train,405,307,luna si,ritz carlton cafe buckhead,0.5022,0.0,0.2511,0,0,True,False
+532,train,235,89,em pire korea,la grenouille,0.5021,0.0,0.2511,0,0,True,False
+533,test,379,304,abbey,mary mac s tea room,0.5018,0.0,0.2509,0,0,True,False
+534,valid,517,321,straits cafe,khan toke thai house,0.5016,0.0,0.2508,0,0,True,False
+535,test,468,80,des alpes,gray s papaya,0.5007,0.0,0.2504,0,0,True,False
+536,train,437,288,circus circus,palace court,0.5004,0.0,0.2502,0,0,True,False
+537,test,448,288,ralph s diner,palace court,0.5004,0.0,0.2502,0,0,True,False
+538,train,494,314,manora,boulevard,0.5,0.0,0.25,0,0,True,False
+539,train,119,255,border grill,island spice,0.5,0.0,0.25,0,0,True,False
+540,train,291,107,le marais,sparks steak house,0.5,0.0,0.25,0,0,True,False
+541,train,349,263,shaan,manhattan ocean club,0.5,0.0,0.25,0,0,True,False
+542,valid,133,232,drai s,matsuhisa,0.5,0.0,0.25,0,0,True,False
+543,valid,4,52,campanile,pink s famous chili dogs,0.5,0.0,0.25,0,0,True,False
+544,test,70,285,palace court,chin s,0.5,0.0,0.25,0,0,True,False
+545,test,67,288,chin s,palace court,0.5,0.0,0.25,0,0,True,False
+546,test,446,288,mikado,palace court,0.5,0.0,0.25,0,0,True,False
+547,valid,427,286,bertolini s,coyote cafe las vegas,0.4993,0.0,0.2496,0,0,True,False
+548,valid,91,158,restaurant ritz carlton atlanta,frijoleros,0.4991,0.0,0.2495,0,0,True,False
+549,train,92,174,toulouse,original pancake house at,0.4983,0.0,0.2492,0,0,True,False
+550,train,282,119,la reserve,wollensky s grill,0.498,0.0,0.249,0,0,True,False
+551,test,428,137,binion s coffee shop,steakhouse the,0.4976,0.0,0.2488,0,0,True,False
+552,test,39,261,la caravelle,lespinasse new york city,0.4975,0.0,0.2488,0,0,True,False
+553,valid,437,286,circus circus,coyote cafe las vegas,0.4968,0.0,0.2484,0,0,True,False
+554,train,33,261,felidia,lespinasse new york city,0.496,0.0,0.248,0,0,True,False
+555,train,12,224,le chardonnay,citrus,0.4957,0.0,0.2479,0,0,True,False
+556,train,12,234,le chardonnay,patina,0.4957,0.0,0.2479,0,0,True,False
+557,test,449,285,the bacchanal,chin s,0.4957,0.0,0.2479,0,0,True,False
+558,train,170,230,tommy tang s,le chardonnay los angeles,0.4956,0.0,0.2478,0,0,True,False
+559,train,393,295,dante s down the hatch buckhead,brasserie le coze,0.4955,0.0,0.2477,0,0,True,False
+560,train,444,288,margarita s mexican cantina,palace court,0.4951,0.0,0.2476,0,0,True,False
+561,train,290,209,le madri,san francisco bbq,0.4951,0.0,0.2475,0,0,True,False
+562,train,436,223,center stage plaza hotel,chinois on main,0.495,0.0,0.2475,0,0,True,False
+563,valid,18,219,pinot bistro,art s deli,0.4944,0.0,0.2472,0,0,True,False
+564,test,32,261,dawat,lespinasse new york city,0.4944,0.0,0.2472,0,0,True,False
+565,test,170,62,tommy tang s,sweet lady jane,0.4944,0.0,0.2472,0,0,True,False
+566,valid,424,288,bally s big kitchen,palace court,0.4933,0.0,0.2466,0,0,True,False
+567,train,438,285,em press court,chin s,0.4921,0.0,0.246,0,0,True,False
+568,test,89,292,cafe ritz carlton buckhead,abruzzi,0.4918,0.0,0.2459,0,0,True,False
+569,valid,70,128,palace court,madame ching s,0.4913,0.0,0.2456,0,0,True,False
+570,train,425,291,bamboo garden,till erman the,0.4911,0.0,0.2456,0,0,True,False
+571,train,84,65,indigo coastal grill,uncle bill s pancake house,0.491,0.0,0.2455,0,0,True,False
+572,valid,410,309,palisades,ritz carlton restaurant,0.491,0.0,0.2455,0,0,True,False
+573,train,92,303,toulouse,la grotta,0.4907,0.0,0.2454,0,0,True,False
+574,valid,433,140,cafe roma,tre visi,0.4907,0.0,0.2454,0,0,True,False
+575,train,405,310,luna si,toulouse,0.4901,0.0,0.245,0,0,True,False
+576,train,150,91,mon kee seafood restaurant,lombardi s,0.4897,0.0,0.2449,0,0,True,False
+577,train,446,136,mikado,spago las vegas,0.4889,0.0,0.2444,0,0,True,False
+578,valid,429,136,bistro,spago las vegas,0.4889,0.0,0.2444,0,0,True,False
+579,valid,422,148,tomtom,brookhaven cafe,0.4889,0.0,0.2444,0,0,True,False
+580,train,388,302,camille s,indigo coastal grill,0.4889,0.0,0.2444,0,0,True,False
+581,test,405,308,luna si,ritz carlton dining room buckhead,0.4886,0.0,0.2443,0,0,True,False
+582,test,68,123,coyote cafe,buccaneer bay club,0.4874,0.0,0.2437,0,0,True,False
+583,test,143,0,jack sprat s grill,apple pan the,0.4872,0.0,0.2436,0,0,True,False
+584,valid,432,126,cafe michelle,fiore rotisserie & grille,0.4871,0.0,0.2436,0,0,True,False
+585,train,433,290,cafe roma,steak house the,0.487,0.0,0.2435,0,0,True,False
+586,train,433,136,cafe roma,spago las vegas,0.487,0.0,0.2435,0,0,True,False
+587,train,424,140,bally s big kitchen,tre visi,0.4868,0.0,0.2434,0,0,True,False
+588,train,381,154,annie s thai castle,chopstix,0.4868,0.0,0.2434,0,0,True,False
+589,train,410,330,palisades,ritz carlton cafe atlanta,0.4852,0.0,0.2426,0,0,True,False
+590,valid,332,269,post house,park avenue cafe new york city,0.485,0.0,0.2425,0,0,True,False
+591,test,190,241,ben benson s,21 club,0.4841,0.0,0.2421,0,0,True,False
+592,train,92,184,toulouse,white house restaurant,0.4841,0.0,0.242,0,0,True,False
+593,train,379,156,abbey,eats,0.4833,0.0,0.2417,0,0,True,False
+594,train,373,256,vong,jo jo,0.4833,0.0,0.2417,0,0,True,False
+595,valid,386,158,bistango,frijoleros,0.4833,0.0,0.2417,0,0,True,False
+596,train,19,5,rex il ristorante,bernard s,0.4832,0.0,0.2416,0,0,True,False
+597,valid,524,214,vivande porta via,trio cafe,0.4832,0.0,0.2416,0,0,True,False
+598,train,410,307,palisades,ritz carlton cafe buckhead,0.4826,0.0,0.2413,0,0,True,False
+599,train,292,252,le perigord,four seasons,0.4823,0.0,0.2412,0,0,True,False
+600,train,393,148,dante s down the hatch buckhead,brookhaven cafe,0.482,0.0,0.241,0,0,True,False
+601,train,287,278,le colonial,shun lee palace,0.4818,0.0,0.2409,0,0,True,False
+602,train,448,290,ralph s diner,steak house the,0.4816,0.0,0.2408,0,0,True,False
+603,valid,431,139,bugsy s diner,sterling brunch,0.4816,0.0,0.2408,0,0,True,False
+604,valid,490,188,l osteria del forno,caffe greco,0.4815,0.0,0.2408,0,0,True,False
+605,valid,88,153,pano s and paul s,chops,0.481,0.0,0.2405,0,0,True,False
+606,test,90,295,dining room ritz carlton buckhead,brasserie le coze,0.4804,0.0,0.2402,0,0,True,False
+607,train,124,59,california pizza kitchen,ruth s chris steak house los angeles,0.4804,0.0,0.2402,0,0,True,False
+608,train,443,291,mandarin court,till erman the,0.4802,0.0,0.2401,0,0,True,False
+609,train,444,290,margarita s mexican cantina,steak house the,0.4801,0.0,0.24,0,0,True,False
+610,train,247,69,fleur de jour,arcadia,0.4799,0.0,0.2399,0,0,True,False
+611,train,494,201,manora,la taqueria,0.4798,0.0,0.2399,0,0,True,False
+612,train,256,89,gallagher s,la grenouille,0.4797,0.0,0.2399,0,0,True,False
+613,train,429,130,bistro,michael s las vegas,0.4795,0.0,0.2398,0,0,True,False
+614,train,52,260,petrossian,les celebrites,0.4786,0.0,0.2393,0,0,True,False
+615,train,67,139,chin s,sterling brunch,0.4778,0.0,0.2389,0,0,True,False
+616,train,429,139,bistro,sterling brunch,0.4778,0.0,0.2389,0,0,True,False
+617,train,32,107,dawat,sparks steak house,0.4778,0.0,0.2389,0,0,True,False
+618,test,72,132,steak house,moongate,0.4773,0.0,0.2386,0,0,True,False
+619,test,405,295,luna si,brasserie le coze,0.4772,0.0,0.2386,0,0,True,False
+620,test,437,136,circus circus,spago las vegas,0.4769,0.0,0.2385,0,0,True,False
+621,train,90,175,dining room ritz carlton buckhead,palm the atlanta,0.4766,0.0,0.2383,0,0,True,False
+622,train,16,45,patina,mo better meatty meat,0.4762,0.0,0.2381,0,0,True,False
+623,train,6,45,citrus,mo better meatty meat,0.4762,0.0,0.2381,0,0,True,False
+624,test,273,260,jean lafitte,les celebrites,0.4762,0.0,0.2381,0,0,True,False
+625,train,479,246,helmand,carmine s,0.4762,0.0,0.2381,0,0,True,False
+626,train,119,207,border grill,roosevelt tamale parlor,0.4758,0.0,0.2379,0,0,True,False
+627,train,468,103,des alpes,peter luger steak house,0.4758,0.0,0.2379,0,0,True,False
+628,test,142,59,il fornaio cucina italiana,ruth s chris steak house los angeles,0.4758,0.0,0.2379,0,0,True,False
+629,test,143,39,jack sprat s grill,main course the,0.4757,0.0,0.2378,0,0,True,False
+630,train,422,184,tomtom,white house restaurant,0.4747,0.0,0.2374,0,0,True,False
+631,train,110,316,ritz carlton restaurant and dining room,campton place,0.4744,0.0,0.2372,0,0,True,False
+632,train,437,133,circus circus,morton s of chicago las vegas,0.4742,0.0,0.2371,0,0,True,False
+633,train,468,267,des alpes,montrachet,0.4741,0.0,0.237,0,0,True,False
+634,test,96,193,boulevard,dusit thai,0.4741,0.0,0.237,0,0,True,False
+635,train,241,268,fifty seven fifty seven,oceana,0.4734,0.0,0.2367,0,0,True,False
+636,train,473,204,grand cafe hotel monaco,mel s drive in,0.4731,0.0,0.2365,0,0,True,False
+637,train,405,148,luna si,brookhaven cafe,0.473,0.0,0.2365,0,0,True,False
+638,train,68,130,coyote cafe,michael s las vegas,0.4726,0.0,0.2363,0,0,True,False
+639,train,70,286,palace court,coyote cafe las vegas,0.4722,0.0,0.2361,0,0,True,False
+640,train,338,259,ruth s chris,le bernardin,0.4722,0.0,0.2361,0,0,True,False
+641,train,170,234,tommy tang s,patina,0.4722,0.0,0.2361,0,0,True,False
+642,train,429,125,bistro,em eril s new orleans fish house,0.4722,0.0,0.2361,0,0,True,False
+643,train,146,17,joss,duke s,0.4722,0.0,0.2361,0,0,True,False
+644,train,76,179,bone s,soto,0.4722,0.0,0.2361,0,0,True,False
+645,valid,366,109,tse yang,sushisay,0.4722,0.0,0.2361,0,0,True,False
+646,valid,168,234,tavola calda,patina,0.4722,0.0,0.2361,0,0,True,False
+647,test,70,140,palace court,tre visi,0.4722,0.0,0.2361,0,0,True,False
+648,train,88,300,pano s and paul s,hedgerose heights inn the,0.4719,0.0,0.2359,0,0,True,False
+649,valid,3,56,cafe bizou,rubin s red hots,0.4708,0.0,0.2354,0,0,True,False
+650,train,307,254,mavalli palace,gramercy tavern,0.4706,0.0,0.2353,0,0,True,False
+651,valid,140,33,hard rock cafe,koo koo roo,0.4706,0.0,0.2353,0,0,True,False
+652,train,66,260,virgil s,les celebrites,0.4702,0.0,0.2351,0,0,True,False
+653,test,438,140,em press court,tre visi,0.4702,0.0,0.2351,0,0,True,False
+654,train,119,122,border grill,andre s french restaurant,0.4689,0.0,0.2344,0,0,True,False
+655,valid,424,136,bally s big kitchen,spago las vegas,0.4688,0.0,0.2344,0,0,True,False
+656,train,86,164,mary mac s tea room,java jive,0.4683,0.0,0.2342,0,0,True,False
+657,train,11,232,l orangerie,matsuhisa,0.468,0.0,0.234,0,0,True,False
+658,valid,14,229,matsuhisa,l orangerie,0.468,0.0,0.234,0,0,True,False
+659,train,92,307,toulouse,ritz carlton cafe buckhead,0.4679,0.0,0.234,0,0,True,False
+660,train,448,132,ralph s diner,moongate,0.4679,0.0,0.234,0,0,True,False
+661,valid,431,132,bugsy s diner,moongate,0.4679,0.0,0.234,0,0,True,False
+662,valid,449,288,the bacchanal,palace court,0.4671,0.0,0.2335,0,0,True,False
+663,test,119,82,border grill,jackson diner,0.4671,0.0,0.2335,0,0,True,False
+664,train,197,264,bruno,march,0.4667,0.0,0.2333,0,0,True,False
+665,train,220,250,chiam,dawat,0.4667,0.0,0.2333,0,0,True,False
+666,valid,32,264,dawat,march,0.4667,0.0,0.2333,0,0,True,False
+667,test,46,250,march,dawat,0.4667,0.0,0.2333,0,0,True,False
+668,test,479,267,helmand,montrachet,0.4651,0.0,0.2325,0,0,True,False
+669,train,438,132,em press court,moongate,0.4643,0.0,0.2321,0,0,True,False
+670,train,131,24,dive,jiraffe,0.4643,0.0,0.2321,0,0,True,False
+671,test,60,257,shun lee west,la caravelle,0.4637,0.0,0.2318,0,0,True,False
+672,test,136,232,ed debevic s,matsuhisa,0.463,0.0,0.2315,0,0,True,False
+673,test,98,328,campton place,ritz carlton dining room san francisco,0.4628,0.0,0.2314,0,0,True,False
+674,train,427,290,bertolini s,steak house the,0.4626,0.0,0.2313,0,0,True,False
+675,valid,151,62,morton s,sweet lady jane,0.4611,0.0,0.2306,0,0,True,False
+676,train,135,45,eclipse,mo better meatty meat,0.4603,0.0,0.2302,0,0,True,False
+677,valid,427,136,bertolini s,spago las vegas,0.4601,0.0,0.2301,0,0,True,False
+678,test,393,310,dante s down the hatch buckhead,toulouse,0.4597,0.0,0.2298,0,0,True,False
+679,train,1,46,art s delicatessen,mulberry st,0.4596,0.0,0.2298,0,0,True,False
+680,train,405,184,luna si,white house restaurant,0.4594,0.0,0.2297,0,0,True,False
+681,valid,410,184,palisades,white house restaurant,0.4588,0.0,0.2294,0,0,True,False
+682,train,274,255,jewel of india,island spice,0.4579,0.0,0.229,0,0,True,False
+683,train,94,186,alain rondelli,bill s place,0.4579,0.0,0.229,0,0,True,False
+684,train,479,103,helmand,peter luger steak house,0.4576,0.0,0.2288,0,0,True,False
+685,train,1,221,art s delicatessen,cafe bizou,0.4574,0.0,0.2287,0,0,True,False
+686,train,18,46,pinot bistro,mulberry st,0.4571,0.0,0.2285,0,0,True,False
+687,train,329,260,planet hollywood,les celebrites,0.4565,0.0,0.2283,0,0,True,False
+688,train,88,141,pano s and paul s,103 west,0.4559,0.0,0.2279,0,0,True,False
+689,train,197,262,bruno,lutece,0.4556,0.0,0.2278,0,0,True,False
+690,train,32,262,dawat,lutece,0.4556,0.0,0.2278,0,0,True,False
+691,train,67,290,chin s,steak house the,0.4556,0.0,0.2278,0,0,True,False
+692,train,7,17,fenix,duke s,0.4556,0.0,0.2278,0,0,True,False
+693,train,446,290,mikado,steak house the,0.4556,0.0,0.2278,0,0,True,False
+694,valid,44,250,lutece,dawat,0.4556,0.0,0.2278,0,0,True,False
+695,test,50,278,oceana,shun lee palace,0.4556,0.0,0.2278,0,0,True,False
+696,train,368,77,two two two,edison cafe,0.4545,0.0,0.2273,0,0,True,False
+697,test,386,142,bistango,alon s at the terrace,0.4544,0.0,0.2272,0,0,True,False
+698,train,444,123,margarita s mexican cantina,buccaneer bay club,0.4541,0.0,0.2271,0,0,True,False
+699,train,60,84,shun lee west,john s pizzeria,0.4538,0.0,0.2269,0,0,True,False
+700,train,435,291,carnival world,till erman the,0.4524,0.0,0.2262,0,0,True,False
+701,test,135,230,eclipse,le chardonnay los angeles,0.4521,0.0,0.2261,0,0,True,False
+702,train,410,148,palisades,brookhaven cafe,0.4519,0.0,0.2259,0,0,True,False
+703,train,422,175,tomtom,palm the atlanta,0.4514,0.0,0.2257,0,0,True,False
+704,test,451,126,viva mercado s,fiore rotisserie & grille,0.4505,0.0,0.2252,0,0,True,False
+705,train,131,12,dive,cafe blanc,0.45,0.0,0.225,0,0,True,False
+706,valid,444,286,margarita s mexican cantina,coyote cafe las vegas,0.4489,0.0,0.2244,0,0,True,False
+707,test,443,124,mandarin court,buzio s in the rio,0.4484,0.0,0.2242,0,0,True,False
+708,train,437,128,circus circus,madame ching s,0.4478,0.0,0.2239,0,0,True,False
+709,train,66,270,virgil s,petrossian,0.4472,0.0,0.2236,0,0,True,False
+710,test,131,34,dive,la cachette,0.447,0.0,0.2235,0,0,True,False
+711,train,449,125,the bacchanal,em eril s new orleans fish house,0.447,0.0,0.2235,0,0,True,False
+712,train,135,62,eclipse,sweet lady jane,0.446,0.0,0.223,0,0,True,False
+713,train,448,131,ralph s diner,monte carlo,0.4452,0.0,0.2226,0,0,True,False
+714,train,431,131,bugsy s diner,monte carlo,0.4452,0.0,0.2226,0,0,True,False
+715,valid,450,129,venetian,mayflower cuisinier,0.4452,0.0,0.2226,0,0,True,False
+716,train,435,126,carnival world,fiore rotisserie & grille,0.4451,0.0,0.2225,0,0,True,False
+717,test,443,126,mandarin court,fiore rotisserie & grille,0.4451,0.0,0.2225,0,0,True,False
+718,train,435,124,carnival world,buzio s in the rio,0.445,0.0,0.2225,0,0,True,False
+719,train,363,244,triangolo,cafe lalo,0.4444,0.0,0.2222,0,0,True,False
+720,train,222,259,cite,le bernardin,0.4444,0.0,0.2222,0,0,True,False
+721,train,286,120,le chantilly,yama,0.4444,0.0,0.2222,0,0,True,False
+722,train,519,313,tadich grill,aqua,0.4444,0.0,0.2222,0,0,True,False
+723,train,446,285,mikado,chin s,0.4444,0.0,0.2222,0,0,True,False
+724,train,317,255,orso,island spice,0.4444,0.0,0.2222,0,0,True,False
+725,valid,510,325,sanppo,mifune,0.4444,0.0,0.2222,0,0,True,False
+726,valid,410,303,palisades,la grotta,0.4444,0.0,0.2222,0,0,True,False
+727,valid,73,124,tillerman,buzio s in the rio,0.4444,0.0,0.2222,0,0,True,False
+728,test,429,285,bistro,chin s,0.4444,0.0,0.2222,0,0,True,False
+729,test,156,215,pacific dining car,tu lan,0.4444,0.0,0.2222,0,0,True,False
+730,valid,72,123,steak house,buccaneer bay club,0.4441,0.0,0.2221,0,0,True,False
+731,valid,444,136,margarita s mexican cantina,spago las vegas,0.4432,0.0,0.2216,0,0,True,False
+732,train,437,125,circus circus,em eril s new orleans fish house,0.4429,0.0,0.2214,0,0,True,False
+733,train,23,89,21 club,la grenouille,0.442,0.0,0.221,0,0,True,False
+734,test,459,319,bizou,fringale,0.4417,0.0,0.2208,0,0,True,False
+735,test,70,133,palace court,morton s of chicago las vegas,0.4416,0.0,0.2208,0,0,True,False
+736,valid,431,286,bugsy s diner,coyote cafe las vegas,0.4409,0.0,0.2205,0,0,True,False
+737,valid,448,286,ralph s diner,coyote cafe las vegas,0.4409,0.0,0.2205,0,0,True,False
+738,valid,413,302,r j s uptown kitchen & wine bar,indigo coastal grill,0.4409,0.0,0.2204,0,0,True,False
+739,test,431,288,bugsy s diner,palace court,0.4402,0.0,0.2201,0,0,True,False
+740,train,449,136,the bacchanal,spago las vegas,0.4393,0.0,0.2197,0,0,True,False
+741,test,70,130,palace court,michael s las vegas,0.4386,0.0,0.2193,0,0,True,False
+742,test,82,141,hedgerose heights inn,103 west,0.4385,0.0,0.2192,0,0,True,False
+743,train,105,197,lulu,hamburger mary s,0.4375,0.0,0.2188,0,0,True,False
+744,train,96,60,boulevard,shiro,0.437,0.0,0.2185,0,0,True,False
+745,test,379,164,abbey,java jive,0.437,0.0,0.2185,0,0,True,False
+746,train,24,268,aquavit,oceana,0.4365,0.0,0.2183,0,0,True,False
+747,train,135,234,eclipse,patina,0.4365,0.0,0.2183,0,0,True,False
+748,train,113,277,il nido,seryna,0.4365,0.0,0.2183,0,0,True,False
+749,test,50,242,oceana,aquavit,0.4365,0.0,0.2183,0,0,True,False
+750,valid,33,260,felidia,les celebrites,0.4365,0.0,0.2183,0,0,True,False
+751,train,415,161,sa tsu ki,havana sandwich shop,0.4352,0.0,0.2176,0,0,True,False
+752,valid,373,178,vong,silver skillet the,0.4352,0.0,0.2176,0,0,True,False
+753,test,326,107,pen & pencil,sparks steak house,0.4352,0.0,0.2176,0,0,True,False
+754,train,32,270,dawat,petrossian,0.4333,0.0,0.2167,0,0,True,False
+755,train,159,221,posto,cafe bizou,0.4333,0.0,0.2167,0,0,True,False
+756,train,52,264,petrossian,march,0.4333,0.0,0.2167,0,0,True,False
+757,train,342,268,san pietro,oceana,0.4333,0.0,0.2167,0,0,True,False
+758,train,46,270,march,petrossian,0.4333,0.0,0.2167,0,0,True,False
+759,train,43,250,lespinasse,dawat,0.4333,0.0,0.2167,0,0,True,False
+760,train,52,250,petrossian,dawat,0.4333,0.0,0.2167,0,0,True,False
+761,test,131,233,dive,palm the los angeles,0.4333,0.0,0.2167,0,0,True,False
+762,train,93,146,veni vidi vici,bobby & june s kountry kitchen,0.4317,0.0,0.2159,0,0,True,False
+763,valid,448,123,ralph s diner,buccaneer bay club,0.4316,0.0,0.2158,0,0,True,False
+764,train,1,236,art s delicatessen,pinot bistro,0.4315,0.0,0.2157,0,0,True,False
+765,valid,373,261,vong,lespinasse new york city,0.4306,0.0,0.2153,0,0,True,False
+766,train,70,132,palace court,moongate,0.4306,0.0,0.2153,0,0,True,False
+767,train,18,61,pinot bistro,sushi nozawa,0.4306,0.0,0.2153,0,0,True,False
+768,train,67,132,chin s,moongate,0.4306,0.0,0.2153,0,0,True,False
+769,train,292,264,le perigord,march,0.4303,0.0,0.2152,0,0,True,False
+770,train,23,69,21 club,arcadia,0.4286,0.0,0.2143,0,0,True,False
+771,valid,272,242,ipanema,aquavit,0.4286,0.0,0.2143,0,0,True,False
+772,train,321,259,palio,le bernardin,0.4278,0.0,0.2139,0,0,True,False
+773,train,405,175,luna si,palm the atlanta,0.4276,0.0,0.2138,0,0,True,False
+774,train,422,307,tomtom,ritz carlton cafe buckhead,0.4274,0.0,0.2137,0,0,True,False
+775,valid,440,138,golden nugget hotel,stefano s,0.4267,0.0,0.2133,0,0,True,False
+776,train,432,124,cafe michelle,buzio s in the rio,0.4266,0.0,0.2133,0,0,True,False
+777,test,459,72,bizou,corner bistro,0.4256,0.0,0.2128,0,0,True,False
+778,test,42,275,les celebrites,san domenico,0.4246,0.0,0.2123,0,0,True,False
+779,test,429,131,bistro,monte carlo,0.4242,0.0,0.2121,0,0,True,False
+780,test,133,229,drai s,l orangerie,0.4242,0.0,0.2121,0,0,True,False
+781,test,147,23,le colonial,jan s family restaurant,0.424,0.0,0.212,0,0,True,False
+782,train,452,287,yolie s,le montrachet bistro,0.4238,0.0,0.2119,0,0,True,False
+783,test,46,260,march,les celebrites,0.4238,0.0,0.2119,0,0,True,False
+784,train,70,125,palace court,em eril s new orleans fish house,0.4236,0.0,0.2118,0,0,True,False
+785,train,442,137,lillie langtry s,steakhouse the,0.4232,0.0,0.2116,0,0,True,False
+786,train,92,292,toulouse,abruzzi,0.4226,0.0,0.2113,0,0,True,False
+787,train,15,24,the palm,jiraffe,0.4226,0.0,0.2113,0,0,True,False
+788,train,167,64,swingers,tommy s,0.4226,0.0,0.2113,0,0,True,False
+789,valid,366,243,tse yang,aureole,0.4226,0.0,0.2113,0,0,True,False
+790,test,25,109,aureole,sushisay,0.4226,0.0,0.2113,0,0,True,False
+791,train,46,278,march,shun lee palace,0.4222,0.0,0.2111,0,0,True,False
+792,valid,491,324,le central,masa s,0.4222,0.0,0.2111,0,0,True,False
+793,test,494,193,manora,dusit thai,0.4222,0.0,0.2111,0,0,True,False
+794,test,190,89,ben benson s,la grenouille,0.422,0.0,0.211,0,0,True,False
+795,train,159,56,posto,rubin s red hots,0.4208,0.0,0.2104,0,0,True,False
+796,train,52,284,petrossian,virgil s real bbq,0.4201,0.0,0.21,0,0,True,False
+797,train,439,129,feast,mayflower cuisinier,0.4193,0.0,0.2096,0,0,True,False
+798,train,422,308,tomtom,ritz carlton dining room buckhead,0.4192,0.0,0.2096,0,0,True,False
+799,train,501,326,oritalia,plumpjack cafe,0.4187,0.0,0.2093,0,0,True,False
+800,train,197,107,bruno,sparks steak house,0.4185,0.0,0.2093,0,0,True,False
+801,valid,14,218,matsuhisa,arnie morton s of chicago,0.4185,0.0,0.2093,0,0,True,False
+802,valid,220,107,chiam,sparks steak house,0.4185,0.0,0.2093,0,0,True,False
+803,test,68,136,coyote cafe,spago las vegas,0.4184,0.0,0.2092,0,0,True,False
+804,train,168,45,tavola calda,mo better meatty meat,0.4183,0.0,0.2091,0,0,True,False
+805,train,524,326,vivande porta via,plumpjack cafe,0.4171,0.0,0.2085,0,0,True,False
+806,train,456,191,betelnut,doidge s,0.4167,0.0,0.2083,0,0,True,False
+807,train,429,288,bistro,palace court,0.4167,0.0,0.2083,0,0,True,False
+808,valid,168,224,tavola calda,citrus,0.4167,0.0,0.2083,0,0,True,False
+809,valid,119,215,border grill,tu lan,0.4167,0.0,0.2083,0,0,True,False
+810,test,170,224,tommy tang s,citrus,0.4167,0.0,0.2083,0,0,True,False
+811,test,437,130,circus circus,michael s las vegas,0.4159,0.0,0.208,0,0,True,False
+812,train,119,311,border grill,veni vidi vici,0.4147,0.0,0.2073,0,0,True,False
+813,train,356,93,tang pavillion,menchanko tei,0.4139,0.0,0.207,0,0,True,False
+814,valid,197,261,bruno,lespinasse new york city,0.4139,0.0,0.2069,0,0,True,False
+815,train,422,299,tomtom,georgia grille,0.4127,0.0,0.2063,0,0,True,False
+816,train,433,132,cafe roma,moongate,0.412,0.0,0.206,0,0,True,False
+817,test,436,314,center stage plaza hotel,boulevard,0.412,0.0,0.206,0,0,True,False
+818,valid,329,245,planet hollywood,cafe des artistes,0.4118,0.0,0.2059,0,0,True,False
+819,train,256,241,gallagher s,21 club,0.4113,0.0,0.2056,0,0,True,False
+820,train,446,139,mikado,sterling brunch,0.4111,0.0,0.2056,0,0,True,False
+821,train,18,221,pinot bistro,cafe bizou,0.4111,0.0,0.2056,0,0,True,False
+822,train,494,60,manora,shiro,0.4111,0.0,0.2056,0,0,True,False
+823,train,3,61,cafe bizou,sushi nozawa,0.4111,0.0,0.2056,0,0,True,False
+824,test,3,236,cafe bizou,pinot bistro,0.4111,0.0,0.2056,0,0,True,False
+825,valid,68,125,coyote cafe,em eril s new orleans fish house,0.411,0.0,0.2055,0,0,True,False
+826,test,519,195,tadich grill,em erald garden restaurant,0.4103,0.0,0.2051,0,0,True,False
+827,train,73,126,tillerman,fiore rotisserie & grille,0.4098,0.0,0.2049,0,0,True,False
+828,train,92,175,toulouse,palm the atlanta,0.4097,0.0,0.2049,0,0,True,False
+829,train,16,30,patina,johnny rockets la,0.4085,0.0,0.2042,0,0,True,False
+830,train,6,30,citrus,johnny rockets la,0.4085,0.0,0.2042,0,0,True,False
+831,train,446,123,mikado,buccaneer bay club,0.4074,0.0,0.2037,0,0,True,False
+832,train,479,80,helmand,gray s papaya,0.4066,0.0,0.2033,0,0,True,False
+833,train,273,270,jean lafitte,petrossian,0.4056,0.0,0.2028,0,0,True,False
+834,train,167,33,swingers,koo koo roo,0.4053,0.0,0.2027,0,0,True,False
+835,valid,410,299,palisades,georgia grille,0.4048,0.0,0.2024,0,0,True,False
+836,valid,274,242,jewel of india,aquavit,0.4048,0.0,0.2024,0,0,True,False
+837,test,147,33,le colonial,koo koo roo,0.404,0.0,0.202,0,0,True,False
+838,train,422,174,tomtom,original pancake house at,0.4022,0.0,0.2011,0,0,True,False
+839,train,135,30,eclipse,johnny rockets la,0.4006,0.0,0.2003,0,0,True,False
+840,train,88,177,pano s and paul s,riviera,0.4006,0.0,0.2003,0,0,True,False
+841,train,255,95,gabriela s,monsoon ny,0.4,0.0,0.2,0,0,True,False
+842,test,433,139,cafe roma,sterling brunch,0.4,0.0,0.2,0,0,True,False
+843,train,424,132,bally s big kitchen,moongate,0.3999,0.0,0.1999,0,0,True,False
+844,train,437,290,circus circus,steak house the,0.3998,0.0,0.1999,0,0,True,False
+845,train,427,288,bertolini s,palace court,0.399,0.0,0.1995,0,0,True,False
+846,train,356,258,tang pavillion,la cote basque,0.3988,0.0,0.1994,0,0,True,False
+847,train,410,308,palisades,ritz carlton dining room buckhead,0.3969,0.0,0.1984,0,0,True,False
+848,train,384,177,beesley s of buckhead,riviera,0.3968,0.0,0.1984,0,0,True,False
+849,test,425,126,bamboo garden,fiore rotisserie & grille,0.3949,0.0,0.1974,0,0,True,False
+850,train,181,120,alley s end,yama,0.3939,0.0,0.197,0,0,True,False
+851,test,1,61,art s delicatessen,sushi nozawa,0.3935,0.0,0.1968,0,0,True,False
+852,valid,107,327,mifune japan center kintetsu building,postrio,0.3932,0.0,0.1966,0,0,True,False
+853,test,90,148,dining room ritz carlton buckhead,brookhaven cafe,0.3929,0.0,0.1965,0,0,True,False
+854,train,393,292,dante s down the hatch buckhead,abruzzi,0.3917,0.0,0.1959,0,0,True,False
+855,train,82,306,hedgerose heights inn,pano s & paul s,0.3905,0.0,0.1952,0,0,True,False
+856,valid,437,131,circus circus,monte carlo,0.3901,0.0,0.195,0,0,True,False
+857,train,6,234,citrus,patina,0.3889,0.0,0.1944,0,0,True,False
+858,test,276,107,joe allen,sparks steak house,0.3889,0.0,0.1944,0,0,True,False
+859,test,16,224,patina,citrus,0.3889,0.0,0.1944,0,0,True,False
+860,train,86,181,mary mac s tea room,tortillas,0.385,0.0,0.1925,0,0,True,False
+861,train,241,263,fifty seven fifty seven,manhattan ocean club,0.3848,0.0,0.1924,0,0,True,False
+862,train,89,310,cafe ritz carlton buckhead,toulouse,0.3846,0.0,0.1923,0,0,True,False
+863,valid,68,128,coyote cafe,madame ching s,0.3831,0.0,0.1916,0,0,True,False
+864,train,427,132,bertolini s,moongate,0.3826,0.0,0.1913,0,0,True,False
+865,train,39,93,la caravelle,menchanko tei,0.3825,0.0,0.1912,0,0,True,False
+866,test,405,299,luna si,georgia grille,0.381,0.0,0.1905,0,0,True,False
+867,valid,90,310,dining room ritz carlton buckhead,toulouse,0.3775,0.0,0.1888,0,0,True,False
+868,test,92,308,toulouse,ritz carlton dining room buckhead,0.3775,0.0,0.1888,0,0,True,False
+869,test,249,207,follonico,roosevelt tamale parlor,0.3768,0.0,0.1884,0,0,True,False
+870,train,33,262,felidia,lutece,0.373,0.0,0.1865,0,0,True,False
+871,test,44,251,lutece,felidia,0.373,0.0,0.1865,0,0,True,False
+872,test,393,299,dante s down the hatch buckhead,georgia grille,0.3728,0.0,0.1864,0,0,True,False
+873,train,69,134,le montrachet,nicky blair s,0.3718,0.0,0.1859,0,0,True,False
+874,train,317,107,orso,sparks steak house,0.3704,0.0,0.1852,0,0,True,False
+875,test,431,140,bugsy s diner,tre visi,0.3686,0.0,0.1843,0,0,True,False
+876,train,159,219,posto,art s deli,0.3667,0.0,0.1833,0,0,True,False
+877,train,45,270,manhattan ocean club,petrossian,0.3667,0.0,0.1833,0,0,True,False
+878,valid,52,263,petrossian,manhattan ocean club,0.3667,0.0,0.1833,0,0,True,False
+879,train,156,213,pacific dining car,ti couz,0.3651,0.0,0.1825,0,0,True,False
+880,train,429,132,bistro,moongate,0.3611,0.0,0.1806,0,0,True,False
+881,valid,3,46,cafe bizou,mulberry st,0.3576,0.0,0.1788,0,0,True,False
+882,test,82,177,hedgerose heights inn,riviera,0.3571,0.0,0.1786,0,0,True,False
+883,valid,393,172,dante s down the hatch buckhead,nava,0.3548,0.0,0.1774,0,0,True,False
+884,train,422,303,tomtom,la grotta,0.3519,0.0,0.1759,0,0,True,False
+885,valid,92,295,toulouse,brasserie le coze,0.3505,0.0,0.1752,0,0,True,False
+886,train,256,77,gallagher s,edison cafe,0.3485,0.0,0.1742,0,0,True,False
+887,train,459,74,bizou,cucina di pesce,0.3444,0.0,0.1722,0,0,True,False
+888,train,90,292,dining room ritz carlton buckhead,abruzzi,0.3398,0.0,0.1699,0,0,True,False
+889,train,82,150,hedgerose heights inn,canoe,0.3317,0.0,0.1659,0,0,True,False
+890,train,221,258,china grill,la cote basque,0.329,0.0,0.1645,0,0,True,False
+891,train,45,260,manhattan ocean club,les celebrites,0.3286,0.0,0.1643,0,0,True,False
+892,train,147,64,le colonial,tommy s,0.3225,0.0,0.1613,0,0,True,False
+893,test,6,62,citrus,sweet lady jane,0.3222,0.0,0.1611,0,0,True,False
+894,test,67,136,chin s,spago las vegas,0.3222,0.0,0.1611,0,0,True,False
+895,test,16,62,patina,sweet lady jane,0.3222,0.0,0.1611,0,0,True,False
+896,train,277,241,judson grill,21 club,0.3175,0.0,0.1587,0,0,True,False
+897,test,23,252,21 club,four seasons,0.3175,0.0,0.1587,0,0,True,False
+898,train,371,241,victor s cafe,21 club,0.3132,0.0,0.1566,0,0,True,False
+899,train,530,325,yoyo tsumami bistro,mifune,0.3129,0.0,0.1564,0,0,True,False
+900,train,495,159,maykadeh,greenwood s,0.3106,0.0,0.1553,0,0,True,False
+901,train,15,34,the palm,la cachette,0.3106,0.0,0.1553,0,0,True,False
+902,valid,424,131,bally s big kitchen,monte carlo,0.3102,0.0,0.1551,0,0,True,False
+903,train,446,286,mikado,coyote cafe las vegas,0.3095,0.0,0.1548,0,0,True,False
+904,train,429,286,bistro,coyote cafe las vegas,0.3095,0.0,0.1548,0,0,True,False
+905,train,140,64,hard rock cafe,tommy s,0.3095,0.0,0.1548,0,0,True,False
+906,test,468,88,des alpes,la caridad,0.3074,0.0,0.1537,0,0,True,False
+907,train,449,132,the bacchanal,moongate,0.3013,0.0,0.1506,0,0,True,False
+908,train,65,69,union square cafe,arcadia,0.3011,0.0,0.1506,0,0,True,False
+909,valid,92,299,toulouse,georgia grille,0.2976,0.0,0.1488,0,0,True,False
+910,train,34,241,four seasons grill room,21 club,0.2909,0.0,0.1454,0,0,True,False
+911,test,121,52,ca brea,pink s famous chili dogs,0.2897,0.0,0.1448,0,0,True,False
+912,test,79,301,ciboulette,heera of india,0.281,0.0,0.1405,0,0,True,False
+913,valid,498,328,moose s,ritz carlton dining room san francisco,0.2794,0.0,0.1397,0,0,True,False
+914,train,197,260,bruno,les celebrites,0.0,0.0,0.0,0,0,True,False
+915,train,373,107,vong,sparks steak house,0.0,0.0,0.0,0,0,True,False
+916,train,46,119,march,wollensky s grill,0.0,0.0,0.0,0,0,True,False
+917,train,33,264,felidia,march,0.0,0.0,0.0,0,0,True,False
+918,train,379,181,abbey,tortillas,0.0,0.0,0.0,0,0,True,False
+919,train,453,187,2223,cafe flore,0.0,0.0,0.0,0,0,True,False
+920,train,373,262,vong,lutece,0.0,0.0,0.0,0,0,True,False
+921,train,112,69,bolo,arcadia,0.0,0.0,0.0,0,0,True,False
+922,train,446,140,mikado,tre visi,0.0,0.0,0.0,0,0,True,False
+923,train,309,242,monkey bar,aquavit,0.0,0.0,0.0,0,0,True,False
+924,train,109,325,postrio,mifune,0.0,0.0,0.0,0,0,True,False
+925,train,422,172,tomtom,nava,0.0,0.0,0.0,0,0,True,False
+926,train,92,172,toulouse,nava,0.0,0.0,0.0,0,0,True,False
+927,train,326,264,pen & pencil,march,0.0,0.0,0.0,0,0,True,False
+928,train,373,250,vong,dawat,0.0,0.0,0.0,0,0,True,False
+929,valid,46,251,march,felidia,0.0,0.0,0.0,0,0,True,False
+930,valid,223,249,coco pazzo,daniel,0.0,0.0,0.0,0,0,True,False
+931,valid,173,228,vida,katsu,0.0,0.0,0.0,0,0,True,False
+932,valid,220,256,chiam,jo jo,0.0,0.0,0.0,0,0,True,False
+933,valid,197,250,bruno,dawat,0.0,0.0,0.0,0,0,True,False
+934,valid,437,132,circus circus,moongate,0.0,0.0,0.0,0,0,True,False
+935,valid,33,250,felidia,dawat,0.0,0.0,0.0,0,0,True,False
+936,valid,373,251,vong,felidia,0.0,0.0,0.0,0,0,True,False
+937,test,197,251,bruno,felidia,0.0,0.0,0.0,0,0,True,False
+938,test,146,225,joss,fenix at the argyle,0.0,0.0,0.0,0,0,True,False
+939,test,7,238,fenix,spago los angeles,0.0,0.0,0.0,0,0,True,False
+940,test,32,260,dawat,les celebrites,0.0,0.0,0.0,0,0,True,False
+941,test,422,295,tomtom,brasserie le coze,0.0,0.0,0.0,0,0,True,False
+942,test,159,46,posto,mulberry st,0.0,0.0,0.0,0,0,True,False
+943,test,429,128,bistro,madame ching s,0.0,0.0,0.0,0,0,True,False
+944,test,32,251,dawat,felidia,0.0,0.0,0.0,0,0,True,False
+945,test,287,120,le colonial,yama,0.0,0.0,0.0,0,0,True,False
+946,test,422,292,tomtom,abruzzi,0.0,0.0,0.0,0,0,True,False
